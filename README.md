@@ -11,6 +11,16 @@ Use this repo as the shared control room for:
 - giving Claude, ChatGPT/Codex, and other agents a single source of truth
 - turning loose ideas into issues, tasks, and pull requests
 
+## Canonical Shared Repo
+
+This is the one shared repo both agents should use for this project.
+
+- Local path: `C:\Users\oeroh\Documents\agent-command-center`
+- Remote repo: `https://github.com/Edward577/-create_website-`
+
+Do not create a second repo for the same work.
+Claude and Codex should both read and update this same repo.
+
 ## Visuals
 
 - [Visual Dashboard](./docs/visual-dashboard.html)
