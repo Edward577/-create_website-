@@ -11,6 +11,11 @@ Use this repo as the shared control room for:
 - giving Claude, ChatGPT/Codex, and other agents a single source of truth
 - turning loose ideas into issues, tasks, and pull requests
 
+## Visuals
+
+- [Visual Dashboard](./docs/visual-dashboard.html)
+- [Visual Roadmap](./docs/visual-roadmap.md)
+
 ## Current Business Tracks
 
 Based on the files and configs already on this machine, your active tracks appear to be:
