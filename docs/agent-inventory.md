@@ -1,257 +1,220 @@
 # Agent Inventory
 
-Updated: 2026-04-23
+Updated: 2026-04-23 — Claude Code sync round
 
-This inventory now combines:
+This inventory combines:
 
-- live ChatGPT account-side agent/app surfaces visible in the browser
-- the shared repo rules for ChatGPT, Codex, Claude / Cloud Code, and Hermes
-- the current trimmed monetization plan
+- live ChatGPT account-side agent surfaces (verified by Codex on 2026-04-23)
+- Claude Code agent definitions and project memory
+- current trimmed monetization direction
 
-## Live ChatGPT Account Findings
+---
 
-### Built By Me Agents Visible In ChatGPT
+## Active Money Stack (6 Agents)
 
-| Agent | Visible Status | What It Does | Useful Now | Notes |
-|---|---|---|---:|---|
-| Ed Money Agent OS | Updated 4 hours ago | Main coordinator and strategy router | Yes | Should stay the top coordinator |
-| John - Conservative Woman / AI Offer Media | Updated 4 hours ago | Face/content engine for conservative woman + AI + day trading + business offers | Yes | Best promo engine for prop-firm/PDF/automation offers |
-| TikTok Shop - Ecommerce Pipeline | Updated 4 hours ago | TikTok Shop + Shopify + CJ/Depot + listings + content + UGC pipeline | Yes | Core commerce lane |
-| Peter - AI Wholesaler Vault | Updated 4 hours ago | Digital product sales agent for AI wholesaling assets | Yes | Strong fast-to-offer lane |
-| Matthew - Lead List Scraper | Updated 4 hours ago | Data-product / CSV / scraper offer lane | Yes | Useful if positioned as sellable data/product |
-| Andrew - Wholesale Automation | Updated 4 hours ago | Lead-generation and wholesale automation lane | Yes | Execution-heavy and monetizable |
-| Luke - Automation Service | Updated 4 hours ago | $997 automation-service sales agent | Maybe later | Put on ice for now per current user direction |
-| Thomas - Trading Bot | Updated 4 hours ago | Trading-system maintenance and evidence checks | No, for now | Put on ice |
-| Grace - Trade Signal Review | Updated 4 hours ago | Trade review gatekeeper | No, for now | Put on ice |
-| Daniel - Content Refresh | Updated 4 hours ago | Content queue refill support | Merge | Fold into John |
-| Philip - Content Engine | Updated 4 hours ago | Repurposes core message into channel-specific content | Merge | Fold into John |
-| Simon - AI Video UGC | Updated 4 hours ago | UGC/video idea support | Merge | Fold into John or TikTok lane depending context |
-| Product Image Worker | Updated 4 hours ago | Ecommerce visual support | Merge | Fold into TikTok Shop |
-| Listing Optimizer Worker | Updated 4 hours ago | Listing-copy optimization | Merge | Fold into TikTok Shop |
-| AI Video Pipeline Worker | Updated 4 hours ago | Video QA and output support | Merge | Fold into TikTok Shop |
-| Thaddaeus - Local Social Automation | Updated 4 hours ago | Local-social service lane | Maybe later | Keep optional, not primary now |
-| James - AI Community | Updated 4 hours ago | Paid community lane | No, for now | Put on ice |
-| Paul - Affiliate Bot | Updated 4 hours ago | Affiliate funnel support | No, for now | Put on ice |
-| Bartholomew - Quiet Affiliate Automation | Updated 4 hours ago | Evergreen affiliate support | No, for now | Put on ice |
-| Zara - Legacy TikTok-Native Fashion | Updated 4 hours ago | Older experimental fashion lane | Maybe later | Keep only if legacy lane is revived |
-| John - Conservative Movement | Updated 4 hours ago | Older version of John | No | Duplicate; legacy/replace with new John |
+### 1. Ed Money Agent OS
 
-### Recently Used Agents Visible
+**Role:** Central coordinator. Chooses the lane of the day, routes tasks, keeps the stack coherent.
+**Sells / Produces:** Nothing directly. Routes traffic and decisions into the right active agent.
+**Money-Making Role:** Prevents wasted effort and keeps John, TikTok Shop, Peter, Matthew, and Andrew focused.
+**When Blocked — Ask Ed:** Which offer do you want to push this week?
+**Outputs:** Daily briefing, lane selection, routing decisions.
 
-These are the agents ChatGPT showed as recently used:
+---
 
-1. `Ed Money Agent OS`
-2. `TikTok Shop - Ecommerce Pipeline`
-3. `John - Conservative Woman / AI Offer Media`
-4. `Luke - Automation Service`
+### 2. John — Conservative Woman / AI Offer Media
 
-Interpretation:
+**Role:** Primary promo engine. Persona-led content creator for all business offers.
+**Persona:** Conservative woman interested in AI, day trading, business systems, and self-reliance.
+**Sells / Produces:**
+- Prop Firm Rinse / The Rinse PDF ($97)
+- Peter's AI Wholesaler Vault
+- Matthew's Lead List Scraper
+- Andrew's Wholesale Automation offer
+- Other relevant business-automation offers
 
-- the coordinator plus John/TikTok are already the live center of gravity
-- Luke was recently used but is no longer the top active focus based on the user's latest direction
+**Money-Making Role:** Drives cold-audience attention through short-form content and converts into offer clicks via Gumroad CTAs.
+**Draft-Only Mode:** All content is draft until Ed confirms posting.
+**Platform Coverage:** TikTok, X/Twitter, Instagram, Facebook
+**Merged Into John:** Daniel (content refresh), Philip (content engine), Simon (AI video UGC)
 
-## Recommended Active Stack
+**When Blocked — Ask Ed:** Which offer should the next batch of content promote?
 
-Keep active:
+**Outputs:**
+- TikTok draft captions + video scripts
+- X/Twitter draft posts (link-first format)
+- Instagram draft captions + reel concepts
+- Facebook draft post copy
+- Operating brief for the week's promo direction
 
-1. `Ed Money Agent OS`
-2. `John - Conservative Woman / AI Offer Media`
-3. `TikTok Shop - Ecommerce Pipeline`
-4. `Peter - AI Wholesaler Vault`
-5. `Matthew - Lead List Scraper`
-6. `Andrew - Wholesale Automation`
+---
 
-Put on ice:
+### 3. TikTok Shop — Ecommerce Pipeline
 
-1. `Luke - Automation Service`
-2. `Thomas - Trading Bot`
-3. `Grace - Trade Signal Review`
-4. `James - AI Community`
-5. `Paul - Affiliate Bot`
-6. `Bartholomew - Quiet Affiliate Automation`
+**Role:** Direct commerce execution lane. Separate from John.
+**Sells / Produces:** Women's fashion products via Shopify + CJ Dropshipping, distributed through TikTok Shop, with Depop and Poshmark as secondary resale surfaces.
+**Money-Making Role:** Direct product revenue through ecommerce listings, content-to-sale loops, and UGC video support.
+**Draft-Only Mode:** All posting, listing publishing, and account connections are draft until Ed confirms.
+**Merged Into TikTok Shop:** Product Image Worker, Listing Optimizer Worker, AI Video Pipeline Worker
 
-Merge into `John`:
+**When Blocked — Ask Ed:** Do you want to push the current Shopify catalog or source new products from CJ first?
 
-1. `Daniel - Content Refresh`
-2. `Philip - Content Engine`
-3. `Simon - AI Video UGC`
+**Outputs:**
+- Draft product listings (title, description, price, variants)
+- Draft TikTok captions per product
+- Draft video prompts for UGC-style content
+- Sourcing shortlists from CJ/Depot
+- Depop/Poshmark listing drafts
 
-Merge into `TikTok Shop - Ecommerce Pipeline`:
+---
 
-1. `Product Image Worker`
-2. `Listing Optimizer Worker`
-3. `AI Video Pipeline Worker`
+### 4. Peter — AI Wholesaler Vault
 
-## Usefulness Ranking
+**Role:** Digital product packaging and sales agent for AI wholesaling assets.
+**Sells / Produces:** AI Wholesaler Vault — a packaged resource for real estate wholesalers using AI tools.
+**Money-Making Role:** Fast digital-product revenue. FINAL.zip is ready. Needs Gumroad listing on second account and John-driven promo traffic.
+**When Blocked — Ask Ed:** Can you log into the second Gumroad account so we can publish the listing?
+**Outputs:** Offer copy, CTA drafts, email pitches, promo scripts for John to use.
+
+---
+
+### 5. Matthew — Lead List Scraper
+
+**Role:** Sellable data and scraper-product lane.
+**Sells / Produces:** All-in-one lead list tool ($497) — scraper + skip trace + text outreach. Targets real estate investors, wholesalers, and deal-hunters.
+**Money-Making Role:** Productized data offer with practical, real-world value. Fits John's self-reliance / builder persona perfectly.
+**When Blocked — Ask Ed:** Do you want to lead with a sample list or a full tool demo to attract first buyers?
+**Outputs:** Landing page copy, sample CSV prep, outreach message templates, demo explanation scripts.
+
+---
+
+### 6. Andrew — Wholesale Automation
+
+**Role:** Wholesale lead-generation and automation service lane.
+**Sells / Produces:** Done-for-you wholesale automation — 5-stage pipeline from lead capture to follow-up.
+**Money-Making Role:** Service revenue and operational proof. Can attract clients or demonstrate the system to prospects.
+**When Blocked — Ask Ed:** Do you want to pitch this as a done-for-you service or as a tool/system sale?
+**Outputs:** Outreach scripts, pipeline explanation decks, service one-pagers, checklist docs.
+
+---
+
+## On Ice
+
+| Agent | Reason |
+|---|---|
+| Luke — Automation Service | Not top focus; revisit when active stack is generating |
+| Thomas — Trading Bot | Engine built; paper trade pending; not revenue-ready |
+| Grace — Trade Signal Review | Supports Thomas; ice with Thomas |
+| James — AI Community | Community lane; not priority now |
+| Paul — Affiliate Bot | Ice; Apex affiliate signup still pending |
+| Bartholomew — Quiet Affiliate Automation | Ice; evergreen but not current focus |
+
+---
+
+## Merged Roles
+
+| Merged Agent | Absorbed Into |
+|---|---|
+| Daniel — Content Refresh | John |
+| Philip — Content Engine | John |
+| Simon — AI Video UGC | John (or TikTok Shop for commerce video) |
+| Product Image Worker | TikTok Shop |
+| Listing Optimizer Worker | TikTok Shop |
+| AI Video Pipeline Worker | TikTok Shop |
+| John — Conservative Movement (old) | Replaced by John — Conservative Woman / AI Offer Media |
+
+---
+
+## Zara Status
+
+Keep on ice unless Ed explicitly revives the legacy TikTok-native-only fashion concept.
+The active commerce lane is TikTok Shop (Shopify + CJ).
+
+---
+
+## Rankings
+
+### Usefulness Ranking
+
+| Rank | Agent |
+|---:|---|
+| 1 | Ed Money Agent OS |
+| 2 | John — Conservative Woman / AI Offer Media |
+| 3 | TikTok Shop — Ecommerce Pipeline |
+| 4 | Peter — AI Wholesaler Vault |
+| 5 | Matthew — Lead List Scraper |
+| 6 | Andrew — Wholesale Automation |
+
+### Speed-To-Value Ranking
+
+| Rank | Agent | Speed |
+|---:|---|---|
+| 1 | John | Fastest — draft content can go out today |
+| 2 | Peter | Fast — product is ready, just needs listing + promo |
+| 3 | TikTok Shop | Fast if Shopify catalog is already live |
+| 4 | Matthew | Medium — needs sample/demo positioned first |
+| 5 | Andrew | Medium — needs pitch angle confirmed |
+| 6 | Ed Money Agent OS | Indirect; supports all others |
+
+### Revenue-Potential Ranking
 
 | Rank | Agent | Why |
 |---:|---|---|
-| 1 | Ed Money Agent OS | Best strategic router; keeps the stack coherent |
-| 2 | John - Conservative Woman / AI Offer Media | Best promo engine for multiple sellable offers |
-| 3 | TikTok Shop - Ecommerce Pipeline | Best commerce execution lane |
-| 4 | Peter - AI Wholesaler Vault | Fastest clean digital-product packaging lane |
-| 5 | Matthew - Lead List Scraper | Strong productizable offer if sample/data quality is real |
-| 6 | Andrew - Wholesale Automation | Real service/deal-flow lane |
-| 7 | Luke - Automation Service | Still valuable, but not current top focus |
-| 8 | Thaddaeus - Local Social Automation | Useful later as a service lane |
-| 9 | Zara - Legacy TikTok-Native Fashion | Useful only if the old lane returns |
-| 10 | Everything else in support/ice | Useful only as support or later-stage work |
+| 1 | John | One persona promotes multiple offers |
+| 2 | TikTok Shop | Direct product revenue at volume |
+| 3 | Peter | Clean digital product with fast launch path |
+| 4 | Andrew | Service revenue or automation proof |
+| 5 | Matthew | Sellable data product with wide audience |
+| 6 | Ed Money Agent OS | Coordination value, not direct revenue |
 
-## Speed-To-Value Ranking
+---
 
-| Rank | Agent | Speed To Value |
-|---:|---|---|
-| 1 | John - Conservative Woman / AI Offer Media | Fastest content-to-offer loop |
-| 2 | Peter - AI Wholesaler Vault | Fastest digital-product positioning loop |
-| 3 | TikTok Shop - Ecommerce Pipeline | Fast if product and store path are already live |
-| 4 | Matthew - Lead List Scraper | Fast if positioned as sample + CSV/product |
-| 5 | Andrew - Wholesale Automation | Medium; operational work required |
-| 6 | Ed Money Agent OS | Indirect value through routing |
+## App / Account Connections
 
-## Revenue-Potential Ranking
+### ChatGPT Side
 
-| Rank | Agent | Revenue Potential | Why |
-|---:|---|---:|---|
-| 1 | John - Conservative Woman / AI Offer Media | High | Promotes multiple offers from one persona/content lane |
-| 2 | TikTok Shop - Ecommerce Pipeline | High | Direct product sales potential |
-| 3 | Peter - AI Wholesaler Vault | High | Clean digital product and repeatable launch path |
-| 4 | Andrew - Wholesale Automation | High | Can create direct deal flow or service outcomes |
-| 5 | Matthew - Lead List Scraper | Medium-High | Sellable data/product if packaged cleanly |
-| 6 | Ed Money Agent OS | Medium | Increases system efficiency, but does not sell directly |
+| App | Status |
+|---|---|
+| GitHub | Setup incomplete |
+| Gmail | Enabled |
+| Google Drive | Enabled |
 
-## Live ChatGPT Apps / Connector Surface Visible
+### Claude Code Side
 
-### Enabled Or Mentioned In Settings
+| Platform | Status |
+|---|---|
+| GitHub CLI | Not authenticated |
+| Hermes Agent | Installed in WSL2, no provider auth yet |
+| Blotato | 401 Unauthorized (queue-only mode) |
+| Chrome Profile 4 | Active seller profile (TikTok, X, IG, FB, Gmail) |
 
-| App / Surface | Visible State | Notes |
-|---|---|---|
-| GitHub | Setup incomplete | Useful for repo context, but blocked pending completion |
-| Gmail | Enabled app visible | Good for draft workflows; sending still requires confirmation |
-| Google Drive | Enabled app visible, sync surface shown | Good for document retrieval and handoffs |
-| Apps | Present | Connectors are now called Apps in ChatGPT |
+---
 
-### Visible App Catalog Surface
+## Claude Code Role In This System
 
-Top app surfaces visible in ChatGPT:
+**Can do:**
+- Prompt cleanup and role refinement for all 6 active agents
+- Handoff docs, operating briefs, checklists
+- Workflow review and planning support
+- Repo file updates and git commit/push
+- Draft content for John's promo lane
 
-- Airtable
-- GitHub
-- Clay
-- Google Drive
-- Atlassian Rovo
+**Cannot do:**
+- Access ChatGPT account-side agents directly
+- Read OpenAI credit usage
+- Post to social media without Ed's confirmation
+- Complete OAuth / app connections without Ed's approval
+- Run Hermes until provider auth is done
 
-Featured visible apps:
-
-- Adobe Photoshop
-- Airtable
-- AllTrails
-- Apple Music
-- Booking.com
-- Canva
-- Expedia
-- Figma
-- Instacart
-- Lovable
-- Replit
-- Spotify
-- Target
-- Tripadvisor
-- Zillow
-
-## GPT Surface Visible
-
-### My GPTs
-
-The `My GPTs` surface was visible, but no personal GPT inventory was surfaced in the captured text. Only the generic GPT marketplace shell was visible from this session.
-
-### Explore GPTs
-
-Visible GPT marketplace examples included:
-
-- Video AI by invideo
-- Expedia
-- Canva
-- Scholar GPT
-- Consensus
-- AI Humanizer
-- Data Analyst
-- Web Browser
-- Monday
-
-These are useful reference surfaces, but not the user's owned monetization system.
-
-## ChatGPT Limits / Credits / Costs Visible
-
-Visible in the inspected UI:
-
-- Workspace label: `Business`
-- `ChatGPT Business Seats` appeared in the workspace surface
-
-Not visibly surfaced in the inspected pages:
-
-- no explicit agent credit counter
-- no explicit monthly agent message counter
-- no visible cost dashboard
-- no visible app billing details
-
-Conclusion:
-
-The account-side UI inspected here did not expose usable credit/cost/limit numbers beyond the fact that this is a Business workspace.
-
-## Claude / Cloud Code / Hermes Sync Notes
-
-### Claude / Cloud Code
-
-Visible local/shared role:
-
-- bounded delegated work
-- copy expansion
-- workflow review
-- repo handoffs through shared markdown
-
-Best way Cloud Code can help with agent setup:
-
-- refine prompts and role definitions
-- produce handoff docs and operating checklists
-- inspect and update repo-side memory after ChatGPT changes
-
-Cloud Code is not the best tool for driving ChatGPT account-side UI directly. It is best used as a bounded planning/review partner.
-
-### Codex
-
-Best role:
-
-- execution
-- repo updates
-- browser-side inspection
-- integration verification
-- sync logging
-
-### Hermes
-
-Status:
-
-- installed
-- provider auth still incomplete
-
-Best future role:
-
-- router between ChatGPT, Codex, Claude, and other providers after provider auth is completed
+---
 
 ## Blockers
 
-1. GitHub app in ChatGPT shows `Setup incomplete`
-2. No explicit ChatGPT credit/cost dashboard was visible in the inspected surfaces
-3. Some agents are duplicated or should be merged, but this inventory pass did not remove them
-4. OAuth/app-connection steps would require action-time user confirmation if they proceed into account approval
-5. Hermes provider auth is still incomplete
-
-## Next Owner And Next Step
-
-| Item | Next Owner | Next Step |
+| Blocker | Owner | Next Step |
 |---|---|---|
-| Trim active agent stack in ChatGPT | Codex + user if confirmation is needed | Keep the 6 active money agents, merge support roles conceptually, leave ice lanes alone |
-| GitHub app setup in ChatGPT | User at confirmation point | Complete app connection only if/when prompted and approved |
-| John promo engine wiring | Codex | Keep John as the promo face for Peter, Matthew, and Andrew |
-| TikTok commerce pipeline | Codex | Keep TikTok Shop as the separate ecommerce execution lane |
-| Hermes provider auth | User | Approve and complete `hermes model` interactively later |
+| GitHub app in ChatGPT shows Setup incomplete | Ed at confirmation point | Approve when ready |
+| Peter's Gumroad listing on second account | Ed | Log into oroaramacella@gmail.com Gumroad |
+| Hermes provider auth | Ed | Run `hermes login --provider nous --no-browser` in WSL2 |
+| X / Instagram Playwright sessions stale | Ed | Run `python manual_login.py --platform twitter/instagram` |
+| Apex affiliate signup | Ed | Sign up at apextraderfunding.com/affiliate |
+| GitHub CLI auth | Ed | Run `gh auth login` in terminal |
