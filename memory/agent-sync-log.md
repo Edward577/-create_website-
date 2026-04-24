@@ -113,3 +113,33 @@ Updated live agents:
 - Codex should continue executing repo updates and low-risk account inspection
 - Cloud Code should continue bounded prompt cleanup, workflow review, and handoff support through the repo
 - User must confirm any OAuth/app connection, login, passkey, posting, publishing, or email send action
+
+---
+
+## 2026-04-23 - Cloud Code Agent Definition Sync
+
+### Work Completed
+
+- updated the Cloud Code / Claude-side custom agent definitions to match the active revenue stack
+- mirrored those definitions into the repo so future ChatGPT, Codex, and Cloud Code sessions can read the same source of truth
+
+### Synced Agent Files
+
+- `.claude/agents/custom/master-coordinator.md`
+- `.claude/agents/custom/john.md`
+- `.claude/agents/custom/tiktok-shop.md`
+- `.claude/agents/custom/peter.md`
+- `.claude/agents/custom/matthew.md`
+- `.claude/agents/custom/andrew.md`
+
+### What Changed
+
+- coordinator now routes only the active six-agent money stack
+- John now reflects the conservative woman / AI woman promo engine
+- TikTok Shop now reflects the full ecommerce pipeline
+- Peter, Matthew, and Andrew now reflect their current money-making roles
+- draft-only and one-short-blocker-question behavior is preserved on the Claude side too
+
+### Boundary
+
+- no OAuth, posting, publishing, app-connection approval, or email-send step was crossed in this round

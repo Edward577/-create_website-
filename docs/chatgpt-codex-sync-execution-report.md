@@ -220,3 +220,39 @@ Do not cross these without asking Ed:
 | John promo-engine output | Codex + Cloud Code | Draft more content and offer routing materials |
 | TikTok pipeline output | Codex | Draft listing/caption/sourcing assets |
 | Hermes auth | User | Complete interactive provider auth later |
+
+---
+
+## Cloud Code Agent Definition Sync
+
+Updated: 2026-04-23 - repo-backed Claude alignment pass
+
+### What Was Completed
+
+- updated the Cloud Code / Claude-side agent definitions to match the active six-agent money stack
+- mirrored the same definitions into the repo under `.claude/agents/custom/`
+- removed the older framing from those synced definitions so future Cloud Code sessions start in the current monetization model
+
+### Synced Agent Files
+
+- `.claude/agents/custom/master-coordinator.md`
+- `.claude/agents/custom/john.md`
+- `.claude/agents/custom/tiktok-shop.md`
+- `.claude/agents/custom/peter.md`
+- `.claude/agents/custom/matthew.md`
+- `.claude/agents/custom/andrew.md`
+
+### What Changed
+
+- the coordinator now routes only the active money stack instead of the older broader disciple structure
+- John now reflects the conservative woman / AI woman promo engine
+- TikTok Shop now reflects the full ecommerce pipeline
+- Peter, Matthew, and Andrew now reflect their current money-making roles
+- draft-only behavior and one-short-blocker-question behavior are preserved on the Cloud Code side too
+
+### Result
+
+ChatGPT, Codex, and Cloud Code now share the same high-level money-agent structure through both:
+
+- live ChatGPT agent prompts
+- repo-backed Cloud Code custom agent files
