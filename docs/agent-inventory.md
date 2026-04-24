@@ -1,78 +1,257 @@
 # Agent Inventory
 
-Updated: 2026-04-24
+Updated: 2026-04-23
 
-This inventory is based on tools, folders, config files, and repo state visible on this machine. It does not include private ChatGPT account-side agents unless ChatGPT exports or writes that list into this repo.
+This inventory now combines:
 
-## Confirmed Local Agent Systems
+- live ChatGPT account-side agent/app surfaces visible in the browser
+- the shared repo rules for ChatGPT, Codex, Claude / Cloud Code, and Hermes
+- the current trimmed monetization plan
 
-| System | Evidence Found | Status | Notes |
-|---|---|---:|---|
-| Claude Code | `.claude`, `CLAUDE.md`, `@claude-flow/cli` config | 85% | Strong local setup, multi-agent oriented |
-| Codex / ChatGPT coding environment | `.codex`, active Codex desktop environment | 80% | Good local setup, GitHub app available |
-| Gemini | `.gemini/projects.json` | 45% | Present, but not clearly wired into one shared workflow |
-| OpenClaw / browser relay | `browser-relay-final/README.md`, `.openclaw` | 60% | Useful for browser automation and store ops |
-| Pixel agents | `.pixel-agents/agent-seats.json` | 20% | Present, unclear business role |
-| ECC / Everything Claude Code | `.claude/marketplace.json`, `.claude/agents`, `.claude/.agents/skills` | 85% | Large local agent/skill pack for code, review, content, ops, and workflow |
-| Claude Flow | `.mcp.json` with `@claude-flow/cli` | 70% | Multi-agent orchestration surface; auto-start currently false |
-| Hermes | `C:\Users\oeroh\HERMES_SETUP.md`, WSL install | 65% | Core installed and verified; provider auth still pending |
-| Gmail MCP | Claude MCP config | 50% | Useful for outreach/reply workflows after account approval |
-| n8n MCP | Claude MCP config | 55% | Useful for automations; host configured locally |
-| Postiz MCP | Claude MCP config | 45% | Useful for social scheduling once connected and approved |
-| TikTok MCP | Claude MCP config | 45% | Relevant to TikTok Shop/content workflows |
-| Composio MCP | Claude MCP config | 55% | Broad integration layer; config contains sensitive credential material |
+## Live ChatGPT Account Findings
 
-## Operational Readiness Score
+### Built By Me Agents Visible In ChatGPT
 
-| Area | Score | Why |
-|---|---:|---|
-| Agent availability | 85% | Several systems are installed, including ECC, Codex plugins, Claude Flow, and MCP surfaces |
-| Shared memory / coordination | 70% | The GitHub-backed command center now defines cross-platform sync rules |
-| GitHub operating model | 55% | Local git push works, but `gh` and the Codex GitHub app connector are not logged in |
-| Monetization linkage | 50% | The fastest money lanes are now clearer, but agent work still needs tighter owner/task assignment |
+| Agent | Visible Status | What It Does | Useful Now | Notes |
+|---|---|---|---:|---|
+| Ed Money Agent OS | Updated 4 hours ago | Main coordinator and strategy router | Yes | Should stay the top coordinator |
+| John - Conservative Woman / AI Offer Media | Updated 4 hours ago | Face/content engine for conservative woman + AI + day trading + business offers | Yes | Best promo engine for prop-firm/PDF/automation offers |
+| TikTok Shop - Ecommerce Pipeline | Updated 4 hours ago | TikTok Shop + Shopify + CJ/Depot + listings + content + UGC pipeline | Yes | Core commerce lane |
+| Peter - AI Wholesaler Vault | Updated 4 hours ago | Digital product sales agent for AI wholesaling assets | Yes | Strong fast-to-offer lane |
+| Matthew - Lead List Scraper | Updated 4 hours ago | Data-product / CSV / scraper offer lane | Yes | Useful if positioned as sellable data/product |
+| Andrew - Wholesale Automation | Updated 4 hours ago | Lead-generation and wholesale automation lane | Yes | Execution-heavy and monetizable |
+| Luke - Automation Service | Updated 4 hours ago | $997 automation-service sales agent | Maybe later | Put on ice for now per current user direction |
+| Thomas - Trading Bot | Updated 4 hours ago | Trading-system maintenance and evidence checks | No, for now | Put on ice |
+| Grace - Trade Signal Review | Updated 4 hours ago | Trade review gatekeeper | No, for now | Put on ice |
+| Daniel - Content Refresh | Updated 4 hours ago | Content queue refill support | Merge | Fold into John |
+| Philip - Content Engine | Updated 4 hours ago | Repurposes core message into channel-specific content | Merge | Fold into John |
+| Simon - AI Video UGC | Updated 4 hours ago | UGC/video idea support | Merge | Fold into John or TikTok lane depending context |
+| Product Image Worker | Updated 4 hours ago | Ecommerce visual support | Merge | Fold into TikTok Shop |
+| Listing Optimizer Worker | Updated 4 hours ago | Listing-copy optimization | Merge | Fold into TikTok Shop |
+| AI Video Pipeline Worker | Updated 4 hours ago | Video QA and output support | Merge | Fold into TikTok Shop |
+| Thaddaeus - Local Social Automation | Updated 4 hours ago | Local-social service lane | Maybe later | Keep optional, not primary now |
+| James - AI Community | Updated 4 hours ago | Paid community lane | No, for now | Put on ice |
+| Paul - Affiliate Bot | Updated 4 hours ago | Affiliate funnel support | No, for now | Put on ice |
+| Bartholomew - Quiet Affiliate Automation | Updated 4 hours ago | Evergreen affiliate support | No, for now | Put on ice |
+| Zara - Legacy TikTok-Native Fashion | Updated 4 hours ago | Older experimental fashion lane | Maybe later | Keep only if legacy lane is revived |
+| John - Conservative Movement | Updated 4 hours ago | Older version of John | No | Duplicate; legacy/replace with new John |
 
-## Bottom Line
+### Recently Used Agents Visible
 
-You do not need more agents right now. You need to connect the agents you already have to one revenue loop.
+These are the agents ChatGPT showed as recently used:
 
-The highest leverage move is:
+1. `Ed Money Agent OS`
+2. `TikTok Shop - Ecommerce Pipeline`
+3. `John - Conservative Woman / AI Offer Media`
+4. `Luke - Automation Service`
 
-1. centralize work in this GitHub repo
-2. focus the agents on one revenue path
-3. make each agent responsible for a specific stage
-4. keep account actions and publishing gated by explicit user approval
+Interpretation:
 
-## Recommended Roles
+- the coordinator plus John/TikTok are already the live center of gravity
+- Luke was recently used but is no longer the top active focus based on the user's latest direction
 
-| Agent | Best Role |
-|---|---|
-| ChatGPT | strategy, monetization, agent ranking, content positioning, reporting |
-| Codex | implementation, repo edits, automation scripts, issue-to-PR execution, integrations |
-| Claude / Cloud Code | long-form planning, issue drafting, market reasoning, workflow design, bounded delegated checks |
-| Gemini | alternative research pass, ideation, comparison drafts |
-| Browser automation tools | store setup, listing QA, repetitive web workflows |
-| ECC code/review agents | quality control, tests, security, refactors, docs |
-| TikTok/content agents | listing copy, hooks, video scripts, captions, product angles |
-| Gmail/n8n/Postiz/Composio connectors | outreach, follow-up, scheduling, workflow automation |
-| Hermes | future router/coordinator between ChatGPT, Codex, Claude, and provider agents |
+## Recommended Active Stack
 
-## Highest-Value Local Agent Groups
+Keep active:
 
-| Group | Usefulness | Speed To Value | Revenue Potential | Use It For |
-|---|---:|---:|---:|---|
-| Content / brand / SEO skills | High | Fast | High | TikTok scripts, product hooks, landing copy, social posts |
-| TikTok custom agents | High | Fast | High | Listing optimization and current shop revenue work |
-| Gmail / n8n / Postiz / Composio | High | Medium | High | Outreach, scheduling, follow-up, automations |
-| Code reviewer / security / e2e agents | Medium | Medium | Medium | Make products and sites shippable without regressions |
-| Planner / chief-of-staff / workflow agents | High | Fast | Medium | Keep execution focused and prevent duplicated agent work |
-| Hermes | High | Medium | High | Cross-platform coordination once provider auth works |
-| Pixel agents | Low until scoped | Slow | Unknown | Hold until tied to a product or service offer |
+1. `Ed Money Agent OS`
+2. `John - Conservative Woman / AI Offer Media`
+3. `TikTok Shop - Ecommerce Pipeline`
+4. `Peter - AI Wholesaler Vault`
+5. `Matthew - Lead List Scraper`
+6. `Andrew - Wholesale Automation`
 
-## What Is Still Missing
+Put on ice:
 
-- ChatGPT account-side agent export written into this repo
-- GitHub CLI login or GitHub app connector connection
-- Hermes provider authentication
-- one weekly KPI review ritual
-- one source of truth for daily revenue/product numbers
-- final decision on the primary monetization lane for the next 30 days
+1. `Luke - Automation Service`
+2. `Thomas - Trading Bot`
+3. `Grace - Trade Signal Review`
+4. `James - AI Community`
+5. `Paul - Affiliate Bot`
+6. `Bartholomew - Quiet Affiliate Automation`
+
+Merge into `John`:
+
+1. `Daniel - Content Refresh`
+2. `Philip - Content Engine`
+3. `Simon - AI Video UGC`
+
+Merge into `TikTok Shop - Ecommerce Pipeline`:
+
+1. `Product Image Worker`
+2. `Listing Optimizer Worker`
+3. `AI Video Pipeline Worker`
+
+## Usefulness Ranking
+
+| Rank | Agent | Why |
+|---:|---|---|
+| 1 | Ed Money Agent OS | Best strategic router; keeps the stack coherent |
+| 2 | John - Conservative Woman / AI Offer Media | Best promo engine for multiple sellable offers |
+| 3 | TikTok Shop - Ecommerce Pipeline | Best commerce execution lane |
+| 4 | Peter - AI Wholesaler Vault | Fastest clean digital-product packaging lane |
+| 5 | Matthew - Lead List Scraper | Strong productizable offer if sample/data quality is real |
+| 6 | Andrew - Wholesale Automation | Real service/deal-flow lane |
+| 7 | Luke - Automation Service | Still valuable, but not current top focus |
+| 8 | Thaddaeus - Local Social Automation | Useful later as a service lane |
+| 9 | Zara - Legacy TikTok-Native Fashion | Useful only if the old lane returns |
+| 10 | Everything else in support/ice | Useful only as support or later-stage work |
+
+## Speed-To-Value Ranking
+
+| Rank | Agent | Speed To Value |
+|---:|---|---|
+| 1 | John - Conservative Woman / AI Offer Media | Fastest content-to-offer loop |
+| 2 | Peter - AI Wholesaler Vault | Fastest digital-product positioning loop |
+| 3 | TikTok Shop - Ecommerce Pipeline | Fast if product and store path are already live |
+| 4 | Matthew - Lead List Scraper | Fast if positioned as sample + CSV/product |
+| 5 | Andrew - Wholesale Automation | Medium; operational work required |
+| 6 | Ed Money Agent OS | Indirect value through routing |
+
+## Revenue-Potential Ranking
+
+| Rank | Agent | Revenue Potential | Why |
+|---:|---|---:|---|
+| 1 | John - Conservative Woman / AI Offer Media | High | Promotes multiple offers from one persona/content lane |
+| 2 | TikTok Shop - Ecommerce Pipeline | High | Direct product sales potential |
+| 3 | Peter - AI Wholesaler Vault | High | Clean digital product and repeatable launch path |
+| 4 | Andrew - Wholesale Automation | High | Can create direct deal flow or service outcomes |
+| 5 | Matthew - Lead List Scraper | Medium-High | Sellable data/product if packaged cleanly |
+| 6 | Ed Money Agent OS | Medium | Increases system efficiency, but does not sell directly |
+
+## Live ChatGPT Apps / Connector Surface Visible
+
+### Enabled Or Mentioned In Settings
+
+| App / Surface | Visible State | Notes |
+|---|---|---|
+| GitHub | Setup incomplete | Useful for repo context, but blocked pending completion |
+| Gmail | Enabled app visible | Good for draft workflows; sending still requires confirmation |
+| Google Drive | Enabled app visible, sync surface shown | Good for document retrieval and handoffs |
+| Apps | Present | Connectors are now called Apps in ChatGPT |
+
+### Visible App Catalog Surface
+
+Top app surfaces visible in ChatGPT:
+
+- Airtable
+- GitHub
+- Clay
+- Google Drive
+- Atlassian Rovo
+
+Featured visible apps:
+
+- Adobe Photoshop
+- Airtable
+- AllTrails
+- Apple Music
+- Booking.com
+- Canva
+- Expedia
+- Figma
+- Instacart
+- Lovable
+- Replit
+- Spotify
+- Target
+- Tripadvisor
+- Zillow
+
+## GPT Surface Visible
+
+### My GPTs
+
+The `My GPTs` surface was visible, but no personal GPT inventory was surfaced in the captured text. Only the generic GPT marketplace shell was visible from this session.
+
+### Explore GPTs
+
+Visible GPT marketplace examples included:
+
+- Video AI by invideo
+- Expedia
+- Canva
+- Scholar GPT
+- Consensus
+- AI Humanizer
+- Data Analyst
+- Web Browser
+- Monday
+
+These are useful reference surfaces, but not the user's owned monetization system.
+
+## ChatGPT Limits / Credits / Costs Visible
+
+Visible in the inspected UI:
+
+- Workspace label: `Business`
+- `ChatGPT Business Seats` appeared in the workspace surface
+
+Not visibly surfaced in the inspected pages:
+
+- no explicit agent credit counter
+- no explicit monthly agent message counter
+- no visible cost dashboard
+- no visible app billing details
+
+Conclusion:
+
+The account-side UI inspected here did not expose usable credit/cost/limit numbers beyond the fact that this is a Business workspace.
+
+## Claude / Cloud Code / Hermes Sync Notes
+
+### Claude / Cloud Code
+
+Visible local/shared role:
+
+- bounded delegated work
+- copy expansion
+- workflow review
+- repo handoffs through shared markdown
+
+Best way Cloud Code can help with agent setup:
+
+- refine prompts and role definitions
+- produce handoff docs and operating checklists
+- inspect and update repo-side memory after ChatGPT changes
+
+Cloud Code is not the best tool for driving ChatGPT account-side UI directly. It is best used as a bounded planning/review partner.
+
+### Codex
+
+Best role:
+
+- execution
+- repo updates
+- browser-side inspection
+- integration verification
+- sync logging
+
+### Hermes
+
+Status:
+
+- installed
+- provider auth still incomplete
+
+Best future role:
+
+- router between ChatGPT, Codex, Claude, and other providers after provider auth is completed
+
+## Blockers
+
+1. GitHub app in ChatGPT shows `Setup incomplete`
+2. No explicit ChatGPT credit/cost dashboard was visible in the inspected surfaces
+3. Some agents are duplicated or should be merged, but this inventory pass did not remove them
+4. OAuth/app-connection steps would require action-time user confirmation if they proceed into account approval
+5. Hermes provider auth is still incomplete
+
+## Next Owner And Next Step
+
+| Item | Next Owner | Next Step |
+|---|---|---|
+| Trim active agent stack in ChatGPT | Codex + user if confirmation is needed | Keep the 6 active money agents, merge support roles conceptually, leave ice lanes alone |
+| GitHub app setup in ChatGPT | User at confirmation point | Complete app connection only if/when prompted and approved |
+| John promo engine wiring | Codex | Keep John as the promo face for Peter, Matthew, and Andrew |
+| TikTok commerce pipeline | Codex | Keep TikTok Shop as the separate ecommerce execution lane |
+| Hermes provider auth | User | Approve and complete `hermes model` interactively later |

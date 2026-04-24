@@ -1,114 +1,195 @@
 # ChatGPT + Codex Sync Execution Report
 
-Updated: 2026-04-24
+Updated: 2026-04-23
 
 ## What Was Requested
 
-The user wants ChatGPT, Codex, Claude / Cloud Code, Hermes, and local agents to operate as one cross-platform execution team. The shared sync surface is this GitHub-backed repo.
+The user asked Codex to:
 
-## What Codex Could Access
+1. use the local computer/browser
+2. inspect the live ChatGPT account-side agent/app/tool surfaces
+3. sync ChatGPT, Codex, Claude / Cloud Code, and Hermes through the shared GitHub repo
+4. write the findings into the repo
+5. keep ChatGPT as strategy/coordinator and Codex as execution
+6. stop before login, passkey, 2FA, OAuth approval, sending, publishing, or account-connection confirmation
 
-- Local repo files and git remotes.
-- Local Claude and Codex config files.
-- Local agent and skill folders.
-- Local Hermes setup report.
-- Git push over the existing repo remote.
+## What Was Successfully Accessed
 
-## What Codex Could Not Access Directly
+### Browser / ChatGPT
 
-- ChatGPT web account UI through the Codex in-app browser. The browser-use backend was unavailable in this session.
-- ChatGPT account-side private agent list.
-- GitHub app connector accounts. The connector returned no installed accounts.
-- GitHub CLI account. `gh auth status` reported no logged-in hosts.
-- Any password, passkey, OTP, or OAuth approval steps. The user must complete these directly.
+Codex successfully accessed the currently available logged-in ChatGPT browser session and inspected:
 
-## Current Sync State
+- `Agents` page
+- `Built by me` agents list
+- `Recently used` agent list
+- ChatGPT settings `Apps` page
+- visible enabled apps/connectors surface
+- public GPT marketplace surface
 
-- Cross-platform sync rules are committed to the GitHub repo.
-- Hermes report is written to `docs/hermes-cross-platform-report.md`.
-- Local agent inventory is updated in `docs/agent-inventory.md`.
-- Monetization priorities are updated in `docs/monetization-roadmap.md`.
+### Shared Repo
 
-## Money Plan
+Codex successfully accessed:
 
-Fastest path:
+- `C:\Users\oeroh\Documents\agent-command-center`
+- the Git remote for `https://github.com/Edward577/-create_website-`
+- existing sync docs and memory files
 
-1. Package and sell the existing `wholesale_ai_toolkit` assets.
-2. Use TikTok Shop / Shopify / CJ / Optima as the commerce pipeline.
-3. Turn the command-center workflow into a service offer only after internal proof exists.
+### Claude / Cloud Code
 
-## Agent Use Plan
+Codex confirmed the shared Claude side is represented in repo files and local config:
 
-Use ChatGPT for:
+- `CLAUDE.md`
+- `.claude/settings.json`
 
-- strategy
-- monetization ranking
-- offer positioning
-- reporting
-- deciding what to prioritize
+Cloud Code is best positioned as:
 
-Use Codex for:
-
-- repo edits
-- scripts
-- integration setup
-- package/build verification
-- GitHub sync
-
-Use Claude / Cloud Code for:
-
-- bounded delegated checks
-- copy expansion
+- bounded planning support
 - workflow review
-- handoff updates
+- prompt refinement
+- handoff/report generation
 
-Use content/TikTok agents for:
+### Hermes
 
-- hooks
-- captions
-- listing copy
-- video scripts
-- product angle testing
+Codex confirmed Hermes setup status from the existing report:
 
-Use Gmail/n8n/Postiz/Composio for:
+- installed in WSL
+- healthy core install
+- provider auth still incomplete
 
-- outreach drafts
-- follow-up workflows
-- social scheduling prep
-- automation design
+## What Was Found In Live ChatGPT
 
-Do not send, publish, upload, change account settings, or connect OAuth apps without user confirmation at the action point.
+### Built-By-Me Agents Visible
 
-## Account Connection Plan
+- Ed Money Agent OS
+- John - Conservative Woman / AI Offer Media
+- TikTok Shop - Ecommerce Pipeline
+- Peter - AI Wholesaler Vault
+- Matthew - Lead List Scraper
+- Andrew - Wholesale Automation
+- Luke - Automation Service
+- Thomas - Trading Bot
+- Daniel - Content Refresh
+- Philip - Content Engine
+- Simon - AI Video UGC
+- Thaddaeus - Local Social Automation
+- Grace - Trade Signal Review
+- Product Image Worker
+- Listing Optimizer Worker
+- AI Video Pipeline Worker
+- James - AI Community
+- Paul - Affiliate Bot
+- Bartholomew - Quiet Affiliate Automation
+- Zara - Legacy TikTok-Native Fashion
+- John - Conservative Movement
 
-Needed connections:
+### Recently Used Agents Visible
 
-- GitHub app connector or `gh auth login`
-- ChatGPT account-side agent export into this repo
-- Hermes provider auth via `hermes model`
-- Claude provider credential visibility for Hermes
-- Gmail MCP authorization
-- n8n MCP verification
-- Postiz account authorization
-- TikTok / Shopify / CJ / Optima sessions for commerce work
+- Ed Money Agent OS
+- TikTok Shop - Ecommerce Pipeline
+- John - Conservative Woman / AI Offer Media
+- Luke - Automation Service
 
-## Next Handoff To ChatGPT
+### Apps / Connectors Visible
 
-ChatGPT should write into this repo:
+Enabled/settings surface showed:
 
-- list of ChatGPT-side agents found
-- what each agent does
-- usefulness ranking
-- speed-to-value ranking
-- revenue-potential ranking
-- account connections it can see
-- credits/cost usage it can see
-- recommended next Codex execution tasks
+- GitHub: `Setup incomplete`
+- Gmail: visible as enabled app
+- Google Drive: visible as enabled app / sync surface
 
-## Next Codex Tasks
+Visible app catalog examples:
 
-1. Keep repo sync clean and pushable.
-2. Convert ChatGPT's strategy into issue/task files.
-3. Package and verify the fastest sellable offer.
-4. Prepare outreach/content drafts without sending or publishing.
-5. Complete Hermes setup only when the user is ready to handle interactive provider auth.
+- Airtable
+- GitHub
+- Clay
+- Google Drive
+- Atlassian Rovo
+- Adobe Photoshop
+- Canva
+- Figma
+- Replit
+- Lovable
+
+### GPT Surface Visible
+
+Codex reached the GPT marketplace shell and saw:
+
+- `Explore GPTs`
+- `My GPTs`
+- featured GPT surfaces
+
+No user-owned GPT list was exposed in the captured `My GPTs` text during this pass.
+
+## Money-System Interpretation
+
+Current best live operating model:
+
+- ChatGPT = strategy/coordinator
+- Codex = execution/sync
+- John = promo engine
+- TikTok Shop = ecommerce pipeline
+- Peter, Matthew, Andrew = execution/product offers
+
+Put on ice:
+
+- Luke
+- Thomas
+- Grace
+- Paul
+- Bartholomew
+- James
+
+Merge conceptually:
+
+- Daniel + Philip + Simon into John
+- Product Image Worker + Listing Optimizer Worker + AI Video Pipeline Worker into TikTok Shop
+
+## Limits / Costs / Credits Visible
+
+Visible:
+
+- workspace is `Business`
+- `ChatGPT Business Seats` was visible
+
+Not visible:
+
+- no explicit credit counter
+- no visible agent budget counter
+- no visible per-app billing information
+
+## Blockers
+
+1. GitHub app inside ChatGPT is still `Setup incomplete`
+2. No explicit cost/limit dashboard was visible in the inspected surfaces
+3. OAuth/app-connection steps would cross into account confirmation territory
+4. Hermes provider auth still requires an interactive user-approved step
+5. The old `John - Conservative Movement` agent still exists alongside the new `John - Conservative Woman / AI Offer Media`
+
+## What Was Updated In The Repo
+
+Updated:
+
+- `docs/agent-inventory.md`
+- `docs/monetization-roadmap.md`
+- `docs/chatgpt-codex-sync-execution-report.md`
+- `memory/agent-sync-log.md`
+
+## What Still Needs User Confirmation
+
+Stop points not crossed in this sync pass:
+
+- GitHub app completion inside ChatGPT
+- any OAuth approval for apps
+- any login / passkey / 2FA step
+- any posting / sending / publishing step
+- any account-connection confirmation step
+
+## Recommended Next Owner / Next Step
+
+| Item | Owner | Next Step |
+|---|---|---|
+| Active agent trim | Codex | Keep the 6 active money agents and treat support lanes as merged/on-ice |
+| GitHub app completion in ChatGPT | User at confirmation point | Approve only when ready |
+| John promo-engine setup | Codex | Continue using John as the face/persona lane |
+| TikTok pipeline setup | Codex | Keep TikTok Shop as the separate commerce lane |
+| Hermes provider auth | User | Complete interactive auth later |

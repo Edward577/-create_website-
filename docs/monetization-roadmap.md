@@ -1,161 +1,249 @@
 # Monetization Roadmap
 
-Updated: 2026-04-24
+Updated: 2026-04-23
 
-This roadmap is based on artifacts found on this machine, not guesswork:
-
-- Shopify product export with live coaster products
-- Amazon ad exports with some sales but weak efficiency
-- TikTok Shop setup screenshots and related store workflow captures
-- product/content automation traces
-- trading strategy exports and backtests
+This roadmap now reflects the live ChatGPT agent inventory that was visible in the browser, not just local repo assumptions.
 
 ## Executive Read
 
-The fastest realistic path to money is not "monetize all agents." It is to use the agents to accelerate one business that can already sell, then package the working system as proof.
+The best operating model right now is:
 
-Right now, your strongest candidate is:
+- ChatGPT = strategy and routing
+- Codex = execution and sync
+- Claude / Cloud Code = bounded planning/review support
+- Hermes = future router after provider auth
 
-Current strongest practical lanes:
+The best revenue system right now is not "all agents active."
 
-1. `wholesale_ai_toolkit` digital product assets already built locally.
-2. TikTok Shop / Shopify / CJ / Optima product and content pipeline.
-3. AI operations command center as a setup/service offer after internal proof.
+It is:
 
-Older evidence also points to:
+1. one coordinator
+2. one promo face
+3. one ecommerce lane
+4. a small number of execution/product lanes
 
-`Shopify + TikTok content + Amazon listing/ad validation around one home-product niche`
+## Primary Revenue Stack
 
-Coasters and closely related home decor items appear to be the most concrete lane in your files.
+### 1. John - Conservative Woman / AI Offer Media
 
-## Revenue Track Rankings
+Role:
 
-| Track | Readiness | Monetization Speed | Risk | Recommendation |
-|---|---:|---:|---:|---|
-| Ecommerce products | 65% | Fastest | Medium | Primary focus now |
-| Content automation services | 40% | Medium | Medium | Build after ecommerce proof |
-| Trading systems | 35% | Slow to monetize safely | High | Keep as R&D, not primary revenue bet |
-| Selling "agent systems" directly | 20% | Slowest | High | Do later, after results exist |
-| Existing digital product vault | 70% | Fast | Medium | Package and sell first if the offer is clean |
-| TikTok Shop pipeline | 60% | Fast | Medium | Primary commerce execution lane |
-| AI operations setup service | 45% | Medium | Medium | Sell after this repo proves the workflow |
+- main promo engine
+- face/persona lane
+- sells attention into prop-firm / PDF / AI / wholesale / automation offers
 
-## Agent-To-Money Map
+Why this is high leverage:
 
-| Agent / System | Money Use | First Action |
-|---|---|---|
-| ChatGPT | Position offer, rank opportunities, write sales angles | Decide the next 7-day offer and content angle |
-| Codex | Build/repair assets, scripts, pages, repos, integrations | Package and verify the product/funnel files |
-| Claude / Cloud Code | Draft docs, inspect workflows, optimize copy | Handle bounded review/copy tasks through repo handoffs |
-| TikTok/content agents | Generate hooks, scripts, captions, listing angles | Produce daily content batches for the active product lane |
-| Gmail / Composio | Outreach to prospects, affiliates, buyers, partners | Draft messages only; sending requires user confirmation |
-| n8n | Automate lead capture, follow-up, content routing | Design workflows first; activation requires user confirmation |
-| Postiz | Schedule content | Prepare queue; publishing requires user confirmation |
-| Hermes | Keep agents synchronized | Complete provider auth, then route summaries/tasks |
+- one persona can promote multiple products
+- short-form content is fast to produce
+- the angle is distinct enough to stand out
 
-## Honest Percent Complete
+What John should promote first:
 
-These are directional estimates based on the local evidence available.
+1. The Rinse / prop-firm process offer
+2. Peter's AI Wholesaler Vault
+3. Matthew's lead-list scraper / CSV angle
+4. Andrew's wholesale automation offer
 
-| Milestone | Percent Complete | Evidence |
-|---|---:|---|
-| Product concept exists | 90% | product exports and existing listings |
-| Store assets exist | 75% | product images, descriptions, exports |
-| Marketplace testing has started | 70% | Amazon campaign history with some purchases |
-| Traffic engine is reliable | 25% | TikTok and content setup exists, but not a consistent conversion loop |
-| Automation is centralized | 30% | many agents/tools, no single operating repo |
-| Profitable repeatable system | 15% | some sales evidence, no durable positive loop yet |
+### 2. TikTok Shop - Ecommerce Pipeline
 
-## What Is Left
+Role:
 
-1. pick one flagship offer for 7 days
-2. clean the offer and pricing
-3. create a daily short-form content pipeline
-4. run only low-risk tests with strict cutoff rules
-5. track conversion, CAC, margin, and repeatable wins in one place
-6. only then expand to adjacent products
+- direct commerce lane
+- sourcing + listing + content + UGC + merchandising support
 
-## Fastest 7-Day Revenue Sprint
+Connected planning surface:
 
-Day 1: choose the offer. Recommended default is the existing `wholesale_ai_toolkit` because assets already exist.
+- TikTok Shop
+- Shopify
+- CJ / Depot
+- Depop
+- Poshmark
+- draft-only visual generation workflow
 
-Day 2: tighten the landing/checkout copy and make the delivery package clean.
+Important operating rule:
 
-Day 3: generate 20 short-form content hooks and 5 outreach message drafts.
+Draft-only planning is fine now. Any account-connection confirmation, posting, or publishing needs action-time user approval.
 
-Day 4: create the first content batch and first outreach list draft.
+### 3. Peter - AI Wholesaler Vault
 
-Day 5: publish only after user confirmation; send outreach only after user confirmation.
+Role:
 
-Day 6: measure clicks, replies, saves, comments, and sales signals.
+- fastest clean digital-product monetization lane
 
-Day 7: double down on the best hook or kill the offer angle and rewrite it.
+Why:
 
-## Step-By-Step Plan
+- offer is already packageable
+- John can promote it without waiting for new infrastructure
 
-### Phase 1: Focus and cleanup
-Time: 2 to 4 days
+### 4. Matthew - Lead List Scraper
 
-1. Choose one flagship SKU family.
-   Recommended: coasters and adjacent home-gift variants
-2. Remove weak or duplicate listings from the active test set.
-3. Standardize title, images, hooks, price, and offer angle.
-4. Define one target buyer.
-   Example: gift buyer, coffee-lover decor buyer, housewarming buyer
+Role:
 
-### Phase 2: Content engine
-Time: 3 to 7 days
+- sellable CSV/data or scraper-product lane
 
-1. Build 20 to 30 short video hooks from your existing product angles.
-2. Use agents to generate scripts, captions, shot lists, thumbnail copy, and posting schedule.
-3. Post daily across TikTok first, then recycle to Reels/Pinterest.
-4. Track which hooks produce clicks, saves, and comments.
+Why:
 
-### Phase 3: Conversion loop
-Time: 7 to 14 days
+- can be positioned as practical, useful, and buyable
+- fits the same audience as John's self-reliance / builder persona
 
-1. Tighten product page copy around the best-performing angle.
-2. Improve product images and social proof.
-3. Send all traffic to one clean offer, not many disconnected products.
-4. Use low-budget testing only.
+### 5. Andrew - Wholesale Automation
 
-### Phase 4: Paid validation
-Time: 7 to 21 days
+Role:
 
-1. Resume only the campaigns with clean keyword intent.
-2. Pause after a fixed spend threshold if there is no traction.
-3. Promote only products with acceptable margin after fulfillment and ad cost.
+- direct operational offer around wholesale lead generation and automation
 
-### Phase 5: Scale or kill
-Time: week 4 onward
+Why:
 
-1. If one SKU family gets profitable conversions, expand line depth.
-2. If not, cut it and test the next niche using the same system.
-3. Do not scale based on "looks promising." Scale only on numbers.
+- can lead to service revenue or operational proof
+- complements Matthew and Peter
 
-## Realistic Monetization Timeline
+## Put On Ice
 
-If you stay focused on ecommerce and content:
+These are not deleted, but should not get the attention budget right now:
 
-- first validated signal: 7 to 14 days
-- first small but real repeatable sales loop: 2 to 6 weeks
-- first stable side-income system: 6 to 12 weeks
+1. Luke - Automation Service
+2. Thomas - Trading Bot
+3. Grace - Trade Signal Review
+4. Paul - Affiliate Bot
+5. Bartholomew - Quiet Affiliate Automation
+6. James - AI Community
 
-If you split attention across all ideas at once:
+## Merge Plan
 
-- timeline usually doubles or collapses completely
+Merge into `John`:
 
-## What The Agents Need To Run Properly
+1. Daniel - Content Refresh
+2. Philip - Content Engine
+3. Simon - AI Video UGC
 
-- one GitHub repo for plans, issues, prompts, and handoffs
-- one KPI sheet with daily traffic and sales numbers
-- one canonical product list
-- one folder for approved assets
-- clear owners for research, content, automation, QA, and analytics
-- kill rules for ads and experiments
+Merge into `TikTok Shop - Ecommerce Pipeline`:
 
-## Strong Recommendation
+1. Product Image Worker
+2. Listing Optimizer Worker
+3. AI Video Pipeline Worker
 
-For the next 30 days, treat every other idea as secondary.
-Use the agents to make one product system profitable first.
-Once that works, the "sell the system" opportunity gets much easier because you will have proof.
+Result:
+
+- fewer bots
+- clearer ownership
+- less duplicated work
+- faster content-to-money loop
+
+## Rankings
+
+### Usefulness Ranking
+
+1. John - Conservative Woman / AI Offer Media
+2. TikTok Shop - Ecommerce Pipeline
+3. Ed Money Agent OS
+4. Peter - AI Wholesaler Vault
+5. Matthew - Lead List Scraper
+6. Andrew - Wholesale Automation
+
+### Speed-To-Value Ranking
+
+1. John
+2. Peter
+3. TikTok Shop
+4. Matthew
+5. Andrew
+6. Ed Money Agent OS
+
+### Revenue-Potential Ranking
+
+1. John
+2. TikTok Shop
+3. Peter
+4. Andrew
+5. Matthew
+6. Ed Money Agent OS
+
+## What Each Active Lane Needs
+
+### John
+
+Needs:
+
+- TikTok draft output
+- X/Twitter draft output
+- Instagram draft output
+- Facebook draft output
+- video-script / post-script output
+- promo routing into Peter, Matthew, and Andrew
+
+Do not require direct posting yet. Draft-only is the correct mode for now.
+
+### TikTok Shop
+
+Needs:
+
+- Shopify product truth
+- CJ / Depot source comparisons
+- Depop / Poshmark awareness for resale/listing logic
+- draft captions
+- draft listing copy
+- draft video prompts
+
+### Peter
+
+Needs:
+
+- clean offer stack
+- clean CTA
+- John-driven promo traffic
+
+### Matthew
+
+Needs:
+
+- sample offer
+- clear buyer
+- John-driven promo traffic
+
+### Andrew
+
+Needs:
+
+- clear execution scope
+- clear outbound or lead-generation story
+- John-driven promo traffic
+
+## Short-Term Revenue Loop
+
+1. `Ed Money Agent OS` chooses the lane of the day
+2. `John` creates the persona-led content and CTA
+3. traffic is pushed into `Peter`, `Matthew`, or `Andrew`
+4. `TikTok Shop` runs separately as the direct ecommerce lane
+5. Codex writes the outputs and syncs the repo
+
+## Cloud Code / Hermes Role In Monetization
+
+### Claude / Cloud Code
+
+Best use:
+
+- tighten prompts
+- refine positioning
+- review landing/offer copy
+- maintain handoff docs
+
+### Hermes
+
+Best use later:
+
+- route summaries and tasks between platforms after provider auth is complete
+
+Not ready yet:
+
+- live provider routing
+- production coordination through Hermes before auth is finished
+
+## Near-Term Next Steps
+
+1. keep the active stack to 6 agents
+2. keep draft-only account behavior
+3. use John as the face and promotion lane
+4. use TikTok Shop as the separate commerce lane
+5. let Peter, Matthew, and Andrew remain execution/product agents
+6. finish sync logging in repo after every major account-side change
