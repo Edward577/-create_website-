@@ -146,6 +146,35 @@ Updated live agents:
 
 ---
 
+## 2026-04-24 - Image And Brand Pipeline Sync
+
+### Work Completed
+
+- reviewed current brand, image, account-change, and safety files in the repo
+- expanded the reusable image prompt system for the AI-woman brand creative
+- created a dedicated visual-system file for the new front-facing woman direction
+- created a replacement map for live profile, hero, and promo surfaces
+- synced the new visual direction into brand memory for future Codex / Cloud Code / ChatGPT use
+
+### Files Added
+
+- `docs/ai-woman-visual-system.md`
+- `docs/visual-replacement-map.md`
+
+### Files Updated
+
+- `docs/image-prompts.md`
+- `memory/brand-memory.md`
+- `docs/chatgpt-codex-sync-execution-report.md`
+
+### Boundary
+
+- no live profile image was replaced
+- no live banner was replaced
+- no account-edit confirmation point was crossed
+
+---
+
 ## 2026-04-24 - Cloud Code Brand Image System Build
 
 ### Work Completed

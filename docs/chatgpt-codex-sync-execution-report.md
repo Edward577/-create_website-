@@ -256,3 +256,43 @@ ChatGPT, Codex, and Cloud Code now share the same high-level money-agent structu
 
 - live ChatGPT agent prompts
 - repo-backed Cloud Code custom agent files
+
+---
+
+## 2026-04-24 - Image And Brand Pipeline Sync
+
+### What Was Requested
+
+- build a unified image-and-brand pipeline across Codex, Cloud Code, Gemini, and ChatGPT
+- use user-supplied TikTok references as style inspiration for the AI-generated woman direction
+- turn that into reusable prompts, replacement guidance, and repo-backed system files
+
+### What Was Completed
+
+- reviewed current image, brand, account-change, and safety files
+- expanded the repo image prompt library to cover speaking-head and hero use cases
+- added a dedicated AI-woman visual system file
+- added a dedicated replacement map for current live surfaces
+- synced the new visual direction into brand memory
+
+### New Or Updated Files
+
+- `docs/ai-woman-visual-system.md`
+- `docs/visual-replacement-map.md`
+- `docs/image-prompts.md`
+- `memory/brand-memory.md`
+
+### TikTok Reference Note
+
+The reference links were usable as creative direction from the user's description, but direct automated inspection was not reliable in this round. The prompt system therefore uses:
+
+- the user's written visual direction
+- the existing brand and safety rules
+- the already-approved transparent AI-brand-creative framing
+
+### What Still Needs Confirmation
+
+- any live profile-image replacement
+- any live banner replacement
+- any live social account edits
+- any live post publishing
