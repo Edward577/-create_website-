@@ -296,3 +296,33 @@ The reference links were usable as creative direction from the user's descriptio
 - any live banner replacement
 - any live social account edits
 - any live post publishing
+
+---
+
+## 2026-04-24 - Live Session Recheck
+
+### Browser State Confirmed
+
+The controllable Chrome session currently has these relevant pages open:
+
+- ChatGPT Agents
+- ChatGPT GitHub connector settings
+- ChatGPT conversation: `Money-agent loop start`
+- Slack redirect pages for `remoteacademia`
+- GitHub sign-in page for the ChatGPT Codex connector install flow
+
+### Important Reality Check
+
+The current browser state suggests:
+
+- ChatGPT is open and usable
+- the GitHub connector flow is not fully past authentication in this active browser path
+- Slack is still sitting on redirect pages rather than a finished working channel handoff
+
+### Practical Next Step
+
+Before any more account-side setup can be completed, use the live browser session to finish whichever of these is actually intended:
+
+1. GitHub sign-in / install target selection for the ChatGPT connector
+2. Slack redirect resolution if Slack channel usage is still desired
+3. social profile image replacement once final image assets are approved
