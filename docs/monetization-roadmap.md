@@ -1,5 +1,7 @@
 # Monetization Roadmap
 
+Updated: 2026-04-24
+
 This roadmap is based on artifacts found on this machine, not guesswork:
 
 - Shopify product export with live coaster products
@@ -10,10 +12,17 @@ This roadmap is based on artifacts found on this machine, not guesswork:
 
 ## Executive Read
 
-The fastest realistic path to money is not "monetize all agents."
-It is to use the agents to accelerate one business that can already sell.
+The fastest realistic path to money is not "monetize all agents." It is to use the agents to accelerate one business that can already sell, then package the working system as proof.
 
 Right now, your strongest candidate is:
+
+Current strongest practical lanes:
+
+1. `wholesale_ai_toolkit` digital product assets already built locally.
+2. TikTok Shop / Shopify / CJ / Optima product and content pipeline.
+3. AI operations command center as a setup/service offer after internal proof.
+
+Older evidence also points to:
 
 `Shopify + TikTok content + Amazon listing/ad validation around one home-product niche`
 
@@ -27,6 +36,22 @@ Coasters and closely related home decor items appear to be the most concrete lan
 | Content automation services | 40% | Medium | Medium | Build after ecommerce proof |
 | Trading systems | 35% | Slow to monetize safely | High | Keep as R&D, not primary revenue bet |
 | Selling "agent systems" directly | 20% | Slowest | High | Do later, after results exist |
+| Existing digital product vault | 70% | Fast | Medium | Package and sell first if the offer is clean |
+| TikTok Shop pipeline | 60% | Fast | Medium | Primary commerce execution lane |
+| AI operations setup service | 45% | Medium | Medium | Sell after this repo proves the workflow |
+
+## Agent-To-Money Map
+
+| Agent / System | Money Use | First Action |
+|---|---|---|
+| ChatGPT | Position offer, rank opportunities, write sales angles | Decide the next 7-day offer and content angle |
+| Codex | Build/repair assets, scripts, pages, repos, integrations | Package and verify the product/funnel files |
+| Claude / Cloud Code | Draft docs, inspect workflows, optimize copy | Handle bounded review/copy tasks through repo handoffs |
+| TikTok/content agents | Generate hooks, scripts, captions, listing angles | Produce daily content batches for the active product lane |
+| Gmail / Composio | Outreach to prospects, affiliates, buyers, partners | Draft messages only; sending requires user confirmation |
+| n8n | Automate lead capture, follow-up, content routing | Design workflows first; activation requires user confirmation |
+| Postiz | Schedule content | Prepare queue; publishing requires user confirmation |
+| Hermes | Keep agents synchronized | Complete provider auth, then route summaries/tasks |
 
 ## Honest Percent Complete
 
@@ -43,12 +68,28 @@ These are directional estimates based on the local evidence available.
 
 ## What Is Left
 
-1. pick one flagship product family for 30 days
+1. pick one flagship offer for 7 days
 2. clean the offer and pricing
 3. create a daily short-form content pipeline
-4. run small ad tests with strict cutoff rules
+4. run only low-risk tests with strict cutoff rules
 5. track conversion, CAC, margin, and repeatable wins in one place
 6. only then expand to adjacent products
+
+## Fastest 7-Day Revenue Sprint
+
+Day 1: choose the offer. Recommended default is the existing `wholesale_ai_toolkit` because assets already exist.
+
+Day 2: tighten the landing/checkout copy and make the delivery package clean.
+
+Day 3: generate 20 short-form content hooks and 5 outreach message drafts.
+
+Day 4: create the first content batch and first outreach list draft.
+
+Day 5: publish only after user confirmation; send outreach only after user confirmation.
+
+Day 6: measure clicks, replies, saves, comments, and sales signals.
+
+Day 7: double down on the best hook or kill the offer angle and rewrite it.
 
 ## Step-By-Step Plan
 

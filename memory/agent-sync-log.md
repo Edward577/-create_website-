@@ -25,6 +25,26 @@
 - ChatGPT should add the ChatGPT-side agent inventory, costs/credits, and monetization ranking into this repo.
 - Codex should convert ChatGPT's strategy into concrete repo tasks, scripts, issues, and verification steps.
 
+## 2026-04-24 - Codex Account/Agent Access Attempt
+
+### Work Completed
+- Attempted to open ChatGPT via the Codex in-app browser workflow.
+- Browser-use backend was unavailable in this session, so Codex could not directly inspect the ChatGPT account UI.
+- Checked GitHub app connector account visibility; no installed GitHub accounts were returned.
+- Checked GitHub CLI; `gh` is installed but not logged in.
+- Updated `docs/agent-inventory.md` with local Claude/Codex/Hermes/MCP agent findings.
+- Updated `docs/monetization-roadmap.md` with a faster revenue sprint and agent-to-money map.
+- Added `docs/chatgpt-codex-sync-execution-report.md`.
+
+### Current Blockers
+- ChatGPT account-side agents must be exported by ChatGPT into this repo or inspected after the user completes account/browser access.
+- OAuth/account connection steps require user action and action-time confirmation.
+- Hermes provider auth still requires interactive user-approved setup.
+
+### Next Agent Handoff
+- ChatGPT should add its account-side agent list and rankings to the repo.
+- Codex should then convert those rankings into repo tasks and executable workflows.
+
 ## 2026-04-23 - Codex
 
 ### Work Completed
