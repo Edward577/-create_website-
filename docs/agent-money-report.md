@@ -1,6 +1,6 @@
 # Agent Money Report
 
-Updated: 2026-04-23 — Claude Code sync round
+Updated: 2026-04-23 - Codex live prompt update round
 
 This report covers each active agent's money-making function, this week's output target, required apps/accounts, blockers, and fastest path to cash.
 
@@ -13,189 +13,197 @@ This report covers each active agent's money-making function, this week's output
 **How it can make money:** Indirectly. Ensures John, TikTok Shop, Peter, Matthew, and Andrew stay focused on revenue-generating work.
 
 **What it should produce this week:**
-- Daily lane selection (which offer to push today)
-- Briefing for John on which product to promote
-- Routing decisions when a task is ambiguous
+- Daily lane selection
+- Briefing for John on which product or offer to promote
+- Routing decision whenever the stack is split across too many ideas
 
-**Apps / Accounts needed:** None directly. Operates through ChatGPT interface.
+**Apps / Accounts needed:** None directly. Operates through ChatGPT plus repo memory.
 
-**What is blocked:** Nothing — operational immediately.
+**What is blocked:** Nothing material. Operational immediately.
 
-**Fastest path to cash:** Use it as the first prompt every session. Ask it which lane to focus on today. Then execute that lane.
+**Fastest path to cash:** Use it as the first prompt every session and route immediately to John, Peter, Matthew, Andrew, or TikTok Shop.
 
 ---
 
-## 2. John — Conservative Woman / AI Offer Media
+## 2. John - Conservative Woman / AI Offer Media
 
-**What it does:** Produces persona-led short-form content to drive traffic into business offers.
-Persona: conservative woman interested in AI, day trading, self-reliance, and business systems.
+**What it does:** Produces persona-led short-form content to drive traffic into business offers. Persona: conservative woman interested in AI, day trading discipline, self-reliance, and practical business systems.
 
 **How it can make money:**
-- TikTok videos and captions → Gumroad link → Prop Firm Rinse sale ($97)
-- X/Twitter posts → link-first promo → Peter's AI Wholesaler Vault sale
-- Instagram Reel concepts → Matthew's scraper offer
-- Facebook post → Andrew's automation offer
+- TikTok draft videos/captions -> prop-firm / PDF offer
+- X/Twitter draft posts -> Peter's AI Wholesaler Vault
+- Instagram draft concepts -> Matthew's scraper/data offer
+- Facebook draft posts -> Andrew's wholesale automation offer
 
 **What it should produce this week:**
-- 5 TikTok draft captions (one per offer, one general hook)
-- 5 X/Twitter draft posts (link-first, direct-response format)
-- 2 Instagram Reel concepts with caption
-- 1 Facebook post per active offer
-- 1 operating brief: which offer gets the most attention this week and why
+- 5 TikTok draft captions
+- 5 X/Twitter draft posts
+- 2 Instagram Reel concepts
+- 1 Facebook draft post per active offer
+- 1 operating brief naming the strongest offer angle this week
 
 **Apps / Accounts needed:**
-- TikTok Studio (logged in via Chrome Profile 4)
-- X/Twitter @Hmmmm355382 (session stale — needs manual re-login)
-- Instagram @janes_store34 (session stale — needs manual re-login)
-- Facebook (compose still blocked)
-- Gumroad CTA link: https://ebadventure46.gumroad.com/l/lmyhtx
+- TikTok draft workflow
+- X/Twitter draft workflow
+- Instagram draft workflow
+- Facebook draft workflow
+- Gumroad or destination CTA link
+
+Historical working-memory references found locally:
+- TikTok: `@shophere79`
+- X/Twitter: `@Hmmmm355382`
+- Instagram: `@janes_store34`
+- Facebook page: `Prop Firm Rinse`
+- Gumroad placeholder link: `https://ebadventure46.gumroad.com/l/lmyhtx`
+
+Treat those references as historical memory until Ed confirms they are still current.
 
 **What is blocked:**
-- X and Instagram sessions are stale
-- Facebook compose is unreliable
-- All content is draft-only until Ed confirms
+- direct posting still requires Ed's approval
+- historical handles are not yet confirmed as current
+- all content remains draft-only until Ed confirms
 
 **Fastest path to cash:**
-1. Ed confirms which offer to push (e.g. Prop Firm Rinse)
-2. John produces 5 TikTok captions + 5 X posts in draft
-3. Ed reviews and approves
-4. Post TikTok via TikTok Studio (working)
-5. Post X manually via logged-in browser (working)
-6. First sale from Gumroad link
+1. Pick one offer to push
+2. Draft 5 TikTok captions + 5 X posts
+3. Ed approves one batch
+4. Post after confirmation
+5. Push the CTA to Gumroad or the active destination
 
 ---
 
-## 3. TikTok Shop — Ecommerce Pipeline
+## 3. TikTok Shop - Ecommerce Pipeline
 
-**What it does:** Runs the full ecommerce lane — sourcing from CJ Dropshipping, listing on Shopify, distributing through TikTok Shop, and creating draft content for each product.
+**What it does:** Runs the full ecommerce lane across TikTok Shop, Shopify, CJ/Depot sourcing, listing optimization, content planning, Depop, Poshmark, and UGC/video direction.
 
 **How it can make money:**
-- Product sold through TikTok Shop affiliate/shop tab
+- Product sold through TikTok Shop
 - Direct Shopify store sales
-- Resale via Depop and Poshmark for margin-positive items
+- Cross-listing via Depop and Poshmark where margin works
 
 **What it should produce this week:**
-- Review the 4 live Shopify products and confirm listing health
-- Draft captions for each of the 4 live products (TikTok format)
-- Draft 2 new product sourcing shortlists from CJ (women's date-night category)
-- Draft 1 Depop listing for the most visual product in the current catalog
+- Review the live Shopify products and confirm listing health
+- Draft captions for each live product
+- Draft 2 new sourcing shortlists from CJ/Depot
+- Draft 1 Depop listing and 1 Poshmark listing
 
 **Apps / Accounts needed:**
-- Shopify admin (https://admin.shopify.com — needs login confirmation)
-- CJ Dropshipping account (sourcing and variant confirmation)
-- TikTok Shop seller account (linked to Shopify)
-- Depop account (draft listing, no posting without Ed's confirm)
-- Poshmark account (draft listing, no posting without Ed's confirm)
+- Shopify admin
+- CJ Dropshipping
+- TikTok Shop seller account
+- Depop account
+- Poshmark account
+- visual generation workflow
+
+Known working-memory references:
+- Shopify store identifier: `raxhcn-a0`
+- Marketplace username memory: `EddysStyleCloset`
+- Fallback names: `ShopEddysStyle`, `EddysClosetCo`, `EddysWardrobe`
 
 **What is blocked:**
-- TikTok Shop API app still in Draft — needs Content Posting API product added
-- Meta (IG/FB) app keys missing
-- All posting is draft-only
+- real account connections still need Ed's approval
+- live posting/publishing has not been authorized in this round
+- all outputs remain draft-only
 
 **Fastest path to cash:**
-1. Check Shopify — confirm the 4 products have active listings
-2. Draft TikTok captions for each product
-3. Ed approves 1 caption
-4. Post manually to TikTok Studio
-5. First sale through TikTok Shop tab
+1. Confirm the strongest live product
+2. Draft the best caption + hook package
+3. Ed approves one post
+4. Post manually after confirmation
+5. Tighten the listing around the same angle
 
 ---
 
-## 4. Peter — AI Wholesaler Vault
+## 4. Peter - AI Wholesaler Vault
 
-**What it does:** Digital product lane for real estate wholesalers using AI tools. Product is already built (FINAL.zip). Needs a Gumroad listing and promo traffic from John.
+**What it does:** Packages and sells the AI Wholesaler Vault as a practical digital product.
 
 **How it can make money:**
-- Gumroad listing (second account: oroaramacella@gmail.com)
-- John drives promo traffic via TikTok and X content
-- Email sequence for repeat buyers
+- Gumroad or Whop listing
+- John-driven promo traffic
+- follow-up email copy later
 
 **What it should produce this week:**
-- Offer page copy (headline, bullets, CTA)
-- 3 John-facing promo scripts (one per platform)
-- 1 email pitch draft for warm outreach
+- 1 cleaned-up offer stack
+- 3 launch posts
+- 1 checkout/listing revision
+- 1 CTA decision
 
 **Apps / Accounts needed:**
-- Second Gumroad account: oroaramacella@gmail.com (Ed must log in manually)
-- John agent (to produce promo content)
+- second Gumroad account: `oroaramacella@gmail.com`
+- John as promo engine
 
 **What is blocked:**
-- Ed has not logged into the second Gumroad account yet
-- No Gumroad listing is live on that account
+- Ed still needs to confirm/login for the Gumroad publish step
+- no listing was confirmed live in this sync round
 
 **Fastest path to cash:**
-1. Ed logs into oroaramacella@gmail.com Gumroad
-2. Claude Code prepares the listing copy
-3. Ed publishes the listing (5 min)
-4. John produces a promo post pointing to it
-5. First sale from Gumroad
+1. Clean the listing copy
+2. Ed logs into Gumroad and publishes
+3. John pushes traffic immediately
 
 ---
 
-## 5. Matthew — Lead List Scraper
+## 5. Matthew - Lead List Scraper
 
-**What it does:** Sellable data and scraper-product lane. All-in-one tool: scraper + skip trace + SMS outreach. Targets real estate investors and wholesalers.
+**What it does:** Builds and sells public-record lead products as either a tool or a done-for-you data offer.
 
 **How it can make money:**
-- Direct sale at $497 (product or service tier)
-- Lead-list samples as a lower-ticket front-end offer
-- Promo through John's conservative/self-reliance audience
+- direct product sale
+- done-for-you list sale
+- John-driven promo traffic
 
 **What it should produce this week:**
-- 1 landing page description (what it is, who it's for, what they get)
-- 1 sample offer angle (e.g. "Get 50 verified leads in your target zip code")
+- 1 landing-page description
+- 1 sample-offer angle
 - 3 John-facing promo script drafts
-- 1 Gumroad or Stripe listing draft
+- 1 listing asset
 
 **Apps / Accounts needed:**
-- Gumroad (primary account: ebadventure46.gumroad.com or new listing)
-- John agent for promo
-- lead_list project directory: `C:\Users\oeroh\OneDrive\Documents\Claude\Projects\lead_list\`
+- Gumroad or another destination page
+- John for promo
+- local lead-list project assets
 
 **What is blocked:**
-- No active Gumroad listing for this product yet
-- Sample list needs to be prepared and verified
+- offer clarity still needs tightening
+- sample proof package is not yet the clearly surfaced live asset
 
 **Fastest path to cash:**
-1. Clarify: is the scraper a tool (sell it) or a service (deliver lists)?
-2. Create a 1-page offer with a sample list as proof
-3. John posts 2-3 pieces of content pointing at it
-4. Ed publishes a Gumroad listing
-5. First sale
+1. Sell the clearest sample/data package first
+2. Keep the promise specific
+3. Let John promote the outcome, not the backend tool
 
 ---
 
-## 6. Andrew — Wholesale Automation
+## 6. Andrew - Wholesale Automation
 
-**What it does:** Wholesale lead-generation and automation pipeline. 5-stage pipeline: lead source, skip trace, sequence, follow-up, close.
+**What it does:** Generates lead, outreach, export, and automation assets for wholesale operations.
 
 **How it can make money:**
-- Done-for-you service to real estate investors (monthly retainer or flat fee)
-- Pipeline-as-a-product (sell the system itself as a toolkit)
-- Complement to Matthew's data lane
+- direct operational/service value
+- possible lead-gen or retainer service
+- complements Matthew's lane
 
 **What it should produce this week:**
-- 1 service description: what the automation does and for whom
-- 1 outreach script (DM or email) for potential clients
-- 1 checklist of what Ed delivers in the service
-- 3 John-facing promo scripts framing Andrew's offer
+- 1 service description
+- 1 outreach script pack
+- 1 export/field spec
+- 1 concise execution brief
 
 **Apps / Accounts needed:**
-- Wholesale project directory: `C:\Users\oeroh\OneDrive\Documents\Claude\Projects\wholesale automation\`
-- John agent for promo
-- Email or DM account for outreach (Gmail: eb82213@gmail.com)
+- local wholesale project assets
+- John for promo
+- email or DM account for outreach drafts
 
 **What is blocked:**
-- 2 open bugs in the pipeline (from last audit)
-- Follow-ups were overdue as of Apr 11
-- No active listing or public offer page
+- 2 open pipeline bugs are still noted in prior memory
+- no confirmed public listing or offer page was surfaced in this sync round
+- any email send action still requires Ed's approval
 
 **Fastest path to cash:**
-1. Fix the 2 open pipeline bugs
-2. Draft a 1-paragraph service description
-3. Send 5 direct outreach messages to warm contacts
-4. Close 1 client at a flat fee
-5. Deliver via the existing 5-stage pipeline
+1. Position Andrew as a clear outcome-based service
+2. Fix the obvious blockers
+3. Send a small batch of direct outreach after approval
 
 ---
 
@@ -203,9 +211,9 @@ Persona: conservative woman interested in AI, day trading, self-reliance, and bu
 
 | Priority | Agent | Why |
 |---:|---|---|
-| 1 | John | Produces content for all other offers — highest leverage action |
-| 2 | Peter | Product ready, just needs a listing and promo — fastest cash |
-| 3 | TikTok Shop | 4 live products — draft content this week and confirm shop tab |
-| 4 | Matthew | Package the sample offer and get one listing live |
-| 5 | Andrew | Fix bugs and send 5 outreach messages |
-| 6 | Ed Money Agent OS | Use daily to choose the lane — no setup needed |
+| 1 | John | Highest leverage because he promotes multiple offers |
+| 2 | Peter | Cleanest fast-to-cash digital-product lane |
+| 3 | TikTok Shop | Direct commerce lane with live infrastructure memory |
+| 4 | Matthew | Strong product lane if sample/offer is cleaned up |
+| 5 | Andrew | Good service lane once execution is tightened |
+| 6 | Ed Money Agent OS | Keeps the rest focused |

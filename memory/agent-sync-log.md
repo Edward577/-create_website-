@@ -1,78 +1,115 @@
 # Agent Sync Log
 
----
-
-## 2026-04-23 — Codex Live ChatGPT Account Sync
+## 2026-04-23 - Codex Live ChatGPT Account Sync
 
 ### Work Completed
 
-- Confirmed repo: `C:\Users\oeroh\Documents\agent-command-center` → `https://github.com/Edward577/-create_website-.git`
-- Inspected live ChatGPT via remote-debugging Chrome session on 127.0.0.1:9222
-- Inspected Agents page, Built by me, Recently used, Apps settings surface
-- Updated all 4 core sync docs
+- Confirmed canonical repo path: `C:\Users\oeroh\Documents\agent-command-center`
+- Confirmed repo remote: `https://github.com/Edward577/-create_website-.git`
+- Reused the live Chrome remote-debugging session
+- Inspected the live ChatGPT account-side agent/app surfaces
+- Synced findings into repo docs
 
 ### Live ChatGPT Findings
 
-21 built-by-me agents visible. 4 recently used: Ed Money Agent OS, TikTok Shop, John (new), Luke.
-Apps: GitHub (Setup incomplete), Gmail (enabled), Google Drive (enabled).
+Built-by-me agents visible:
 
-### Active Stack Confirmed
+- Ed Money Agent OS
+- John - Conservative Woman / AI Offer Media
+- TikTok Shop - Ecommerce Pipeline
+- Peter - AI Wholesaler Vault
+- Matthew - Lead List Scraper
+- Andrew - Wholesale Automation
+- Luke - Automation Service
+- Thomas - Trading Bot
+- Daniel - Content Refresh
+- Philip - Content Engine
+- Simon - AI Video UGC
+- Thaddaeus - Local Social Automation
+- Grace - Trade Signal Review
+- Product Image Worker
+- Listing Optimizer Worker
+- AI Video Pipeline Worker
+- James - AI Community
+- Paul - Affiliate Bot
+- Bartholomew - Quiet Affiliate Automation
+- Zara - Legacy TikTok-Native Fashion
+- John - Conservative Movement
 
-Ed Money Agent OS, John, TikTok Shop, Peter, Matthew, Andrew
+Apps/account-side surfaces visible:
 
-### On Ice
+- GitHub: setup incomplete
+- Gmail: enabled app visible
+- Google Drive: enabled app visible
 
-Luke, Thomas, Grace, James, Paul, Bartholomew
+### Monetization Direction Confirmed
 
-### Merged (Conceptual)
+Active now:
 
-Daniel + Philip + Simon → John
-Product Image Worker + Listing Optimizer Worker + AI Video Pipeline Worker → TikTok Shop
+- Ed Money Agent OS
+- John - Conservative Woman / AI Offer Media
+- TikTok Shop - Ecommerce Pipeline
+- Peter - AI Wholesaler Vault
+- Matthew - Lead List Scraper
+- Andrew - Wholesale Automation
 
-### Blockers
+On ice:
 
-- GitHub app in ChatGPT: Setup incomplete
-- OAuth steps not crossed
-- Hermes provider auth incomplete
-- Old John - Conservative Movement duplicate still in ChatGPT
+- Luke
+- Thomas
+- Grace
+- James
+- Paul
+- Bartholomew
+
+Merged conceptually:
+
+- Daniel + Philip + Simon into John
+- Product Image Worker + Listing Optimizer Worker + AI Video Pipeline Worker into TikTok Shop
+
+### Current Blockers
+
+- GitHub app in ChatGPT still shows `Setup incomplete`
+- No explicit ChatGPT cost/credit dashboard was visible
+- OAuth/account-connection steps were not crossed
+- Hermes provider auth still needs interactive user approval
+- Old `John - Conservative Movement` still exists alongside the newer John agent
 
 ---
 
-## 2026-04-23 — Claude Code Sync Round
+## 2026-04-23 - Codex Active Agent Prompt Update
 
 ### Work Completed
 
-- Read all 4 sync docs from repo
-- Read Claude Code custom agent files: master-coordinator.md, tiktok-shop.md
-- Read full memory index (Apr 10–15 project history)
-- Rewrote `docs/agent-inventory.md` — 6 active agents with improved definitions
-- Created `docs/agent-money-report.md` — full money report for all 6 active agents
-- Rewrote `docs/monetization-roadmap.md` — per-agent this-week checklists
-- Updated `docs/chatgpt-codex-sync-execution-report.md` — Claude Code round added
-- Updated this file
+- Inspected local Claude-side agent files for John, Peter, Matthew, and Andrew
+- Inspected local project/account memory for the older prop-firm social lane and the TikTok Shop ecommerce lane
+- Synced those account/app references into repo docs as historical working memory
+- Updated the live ChatGPT prompts for the active 6-agent money stack
 
-### Cross-Platform Sync State
+Updated live agents:
 
-| Platform | State |
-|---|---|
-| ChatGPT | 6 active agents confirmed; directions documented |
-| Codex | Repo synced from earlier round |
-| Claude Code | Fully synced to repo state |
-| Hermes | Installed, blocked on provider auth |
+- `Ed Money Agent OS`
+- `John - Conservative Woman / AI Offer Media`
+- `TikTok Shop - Ecommerce Pipeline`
+- `Peter - AI Wholesaler Vault`
+- `Matthew - Lead List Scraper`
+- `Andrew - Wholesale Automation`
 
-### What Still Needs Ed
+### What Changed In The Live Prompts
 
-- Peter's Gumroad listing (oroaramacella@gmail.com login)
-- Hermes provider auth (WSL2 terminal)
-- X/Instagram Playwright sessions (manual_login.py)
-- Apex affiliate signup (apextraderfunding.com/affiliate)
-- GitHub CLI auth (gh auth login)
-- Any posting, publishing, or email send
+- coordinator now reflects the trimmed active stack and on-ice lanes
+- John now explicitly owns the conservative-woman promo engine and absorbs content/video support roles
+- TikTok Shop now explicitly owns the full ecommerce pipeline and absorbs image/listing/video support roles
+- Peter, Matthew, and Andrew are framed as execution/product lanes with John as the promo engine
+- all active prompts remain draft-only for social/app/account actions
 
-### Files Changed
+### Current Boundary
 
-- `docs/agent-inventory.md` (updated)
-- `docs/agent-money-report.md` (new)
-- `docs/monetization-roadmap.md` (updated)
-- `docs/chatgpt-codex-sync-execution-report.md` (updated)
-- `memory/agent-sync-log.md` (this entry)
+- No OAuth, posting, sending, or account-confirmation step was crossed in this round
+
+### Next Agent Handoff
+
+- ChatGPT should continue acting as coordinator and ranking surface
+- Codex should continue executing repo updates and low-risk account inspection
+- Cloud Code should continue bounded prompt cleanup, workflow review, and handoff support through the repo
+- User must confirm any OAuth/app connection, login, passkey, posting, publishing, or email send action

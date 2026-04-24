@@ -1,87 +1,222 @@
 # ChatGPT + Codex + Claude Code Sync Execution Report
 
-Updated: 2026-04-23 — Claude Code sync round added
+Updated: 2026-04-23 - Codex live prompt update round
 
 ---
 
-## Codex Round — 2026-04-23 (Earlier)
+## What Was Requested
 
-### What Was Requested
+The user asked for:
 
-The user asked Codex to use the computer, inspect live ChatGPT account-side surfaces, sync all platforms through the shared repo, and stop before any OAuth/login/publish step.
-
-### What Codex Found
-
-Built-by-me agents (21): Ed Money Agent OS, John - Conservative Woman / AI Offer Media, TikTok Shop - Ecommerce Pipeline, Peter - AI Wholesaler Vault, Matthew - Lead List Scraper, Andrew - Wholesale Automation, Luke - Automation Service, Thomas - Trading Bot, Daniel - Content Refresh, Philip - Content Engine, Simon - AI Video UGC, Thaddaeus - Local Social Automation, Grace - Trade Signal Review, Product Image Worker, Listing Optimizer Worker, AI Video Pipeline Worker, James - AI Community, Paul - Affiliate Bot, Bartholomew - Quiet Affiliate Automation, Zara - Legacy TikTok-Native Fashion, John - Conservative Movement (old duplicate)
-
-Recently used: Ed Money Agent OS, TikTok Shop, John (new), Luke
-
-Apps: GitHub (Setup incomplete), Gmail (enabled), Google Drive (enabled)
-
-### Blockers From Codex Round
-
-1. GitHub app in ChatGPT: Setup incomplete
-2. No explicit cost/credit dashboard visible
-3. OAuth steps not crossed
-4. Hermes provider auth still pending
-5. Old John duplicate still exists in ChatGPT
+1. live browser/account inspection in ChatGPT
+2. shared repo sync across ChatGPT, Codex, Claude / Cloud Code, and Hermes
+3. active money-agent cleanup and improvement
+4. repo writeback
+5. no crossing of login, passkey, 2FA, OAuth approval, sending, publishing, or account-connection confirmation boundaries
 
 ---
 
-## Claude Code Round — 2026-04-23
+## What Codex Successfully Accessed
 
-### What Was Requested
+### Browser / ChatGPT
 
-The user asked Claude Code to read the shared repo, audit the agent system, apply the new agent direction (6 active / 6 on ice / merges), improve prompts and money-making roles, write the full money report, update all 4 sync docs, and commit + push.
+Codex successfully accessed the logged-in ChatGPT browser session and inspected:
 
-### What Claude Code Accessed
+- `Agents`
+- `Built by me`
+- `Recently used`
+- ChatGPT settings `Apps`
+- visible enabled-app surfaces
+- GPT marketplace shell
 
-- `docs/agent-inventory.md` — read and fully updated
-- `docs/monetization-roadmap.md` — read and fully updated
-- `docs/chatgpt-codex-sync-execution-report.md` — read and updated (this file)
-- `memory/agent-sync-log.md` — read and updated
-- Claude Code custom agents: master-coordinator.md, tiktok-shop.md
-- Full memory index: Apr 10–15 project history (MEMORY.md)
+### Shared Repo
 
-### What Claude Code Updated
+Codex successfully accessed:
 
-| File | What Changed |
-|---|---|
-| `docs/agent-inventory.md` | Full rewrite — 6 active agents with improved purpose, blocker prompt, output list, on-ice table, merge table, rankings, app status, Claude Code role |
-| `docs/agent-money-report.md` | New file — full money report for all 6 active agents |
-| `docs/monetization-roadmap.md` | Updated lane map, daily revenue loop, per-agent this-week checklist |
-| `docs/chatgpt-codex-sync-execution-report.md` | This file — Claude Code round appended |
-| `memory/agent-sync-log.md` | This session appended |
+- `C:\Users\oeroh\Documents\agent-command-center`
+- `https://github.com/Edward577/-create_website-.git`
 
-### Cross-Platform State After This Round
+### Claude / Cloud Code Side
 
-| Platform | State |
-|---|---|
-| ChatGPT | 6 active confirmed; 6 on ice; merges documented |
-| Codex | Repo synced from earlier round |
-| Claude Code | Fully synced; all docs updated |
-| Hermes | Installed in WSL2; no provider auth yet |
-| Shared repo | Commit + push completed this round |
+Codex successfully inspected local Claude-side files and memory including:
 
-### What Still Needs Ed's Confirmation
+- `.claude/settings.json`
+- `C:\Users\oeroh\.claude\agents\john.md`
+- `C:\Users\oeroh\.claude\agents\andrew.md`
+- `C:\Users\oeroh\.claude\agents\matthew.md`
+- `C:\Users\oeroh\.claude\agents\peter.md`
+- `C:\Users\oeroh\OneDrive\Documents\Claude\Projects\larp\bots\ACCOUNT_SETUP.md`
+- `C:\Users\oeroh\OneDrive\Documents\Claude\Projects\larp\bots\profile_setup.md`
+- `C:\Users\oeroh\OneDrive\Documents\Claude\Projects\tiktok_shop\CURRENT_STATE.md`
+- `C:\Users\oeroh\OneDrive\Documents\Claude\Projects\tiktok_shop\marketplace_ready\MARKETPLACE_PROFILES.md`
 
-| Item | Command / Action |
-|---|---|
-| Peter's Gumroad listing | Log into oroaramacella@gmail.com → publish |
-| Hermes activation | WSL2: `hermes login --provider nous --no-browser` |
-| X/Instagram sessions | `python manual_login.py --platform twitter` / `--platform instagram` |
-| Apex affiliate | Sign up at apextraderfunding.com/affiliate |
-| GitHub CLI auth | `gh auth login` |
-| GitHub app in ChatGPT | Complete setup when ready |
-| Any posting / publishing | Ed confirms before anything goes live |
-| Any email sending | Ed confirms recipient and content before sending |
+### Hermes
 
-### What Claude Code Can Do Going Forward
+Codex confirmed Hermes is installed and documented in:
 
-- Keep all 4 sync docs updated after every session
-- Draft content for John (TikTok captions, X posts, IG concepts, FB posts)
-- Draft offer copy for Peter, Matthew, Andrew
-- Draft listing copy for TikTok Shop products
-- Clean and improve agent prompts on request
-- Review and refine any workflow or agent role
-- Commit and push repo changes (requires `gh auth login` or git credential pass)
+- `C:\Users\oeroh\HERMES_SETUP.md`
+
+Provider auth is still incomplete.
+
+---
+
+## Live ChatGPT Findings
+
+### Built-By-Me Agents Visible
+
+- Ed Money Agent OS
+- John - Conservative Woman / AI Offer Media
+- TikTok Shop - Ecommerce Pipeline
+- Peter - AI Wholesaler Vault
+- Matthew - Lead List Scraper
+- Andrew - Wholesale Automation
+- Luke - Automation Service
+- Thomas - Trading Bot
+- Daniel - Content Refresh
+- Philip - Content Engine
+- Simon - AI Video UGC
+- Thaddaeus - Local Social Automation
+- Grace - Trade Signal Review
+- Product Image Worker
+- Listing Optimizer Worker
+- AI Video Pipeline Worker
+- James - AI Community
+- Paul - Affiliate Bot
+- Bartholomew - Quiet Affiliate Automation
+- Zara - Legacy TikTok-Native Fashion
+- John - Conservative Movement
+
+### Recently Used Agents Visible
+
+- Ed Money Agent OS
+- TikTok Shop - Ecommerce Pipeline
+- John - Conservative Woman / AI Offer Media
+- Luke - Automation Service
+
+### Apps / Connectors Visible
+
+- GitHub: `Setup incomplete`
+- Gmail: visible/enabled app surface
+- Google Drive: visible/enabled app surface
+- app catalog examples visible: Airtable, GitHub, Clay, Google Drive, Atlassian Rovo, Canva, Figma, Replit, Lovable, and others
+
+### GPT Surface Visible
+
+The GPT marketplace shell was visible, but no useful user-owned GPT list was exposed in the captured `My GPTs` text.
+
+---
+
+## Active Stack Decision
+
+Keep active:
+
+- Ed Money Agent OS
+- John - Conservative Woman / AI Offer Media
+- TikTok Shop - Ecommerce Pipeline
+- Peter - AI Wholesaler Vault
+- Matthew - Lead List Scraper
+- Andrew - Wholesale Automation
+
+Put on ice:
+
+- Luke - Automation Service
+- Thomas - Trading Bot
+- Grace - Trade Signal Review
+- James - AI Community
+- Paul - Affiliate Bot
+- Bartholomew - Quiet Affiliate Automation
+
+Merge conceptually:
+
+- Daniel + Philip + Simon into John
+- Product Image Worker + Listing Optimizer Worker + AI Video Pipeline Worker into TikTok Shop
+
+---
+
+## What Claude / Cloud Code Can Do
+
+Cloud Code can help with:
+
+- prompt cleanup
+- role refinement
+- workflow review
+- handoff docs
+- preserving local project and account memory
+- writing clearer money-making definitions for each agent
+
+Cloud Code cannot fully replace Codex for this task because:
+
+- Codex is the primary browser/UI operator in this session
+- Codex handled the live ChatGPT account-side inspection and agent-editor changes
+- action-time confirmation boundaries still require the user either way
+
+---
+
+## What Codex Completed In This Round
+
+### Repo Sync
+
+Codex updated:
+
+- `docs/agent-inventory.md`
+- `docs/monetization-roadmap.md`
+- `docs/chatgpt-codex-sync-execution-report.md`
+- `memory/agent-sync-log.md`
+
+Codex also aligned the existing money report:
+
+- `docs/agent-money-report.md`
+
+### Live Agent Improvements
+
+Codex updated the live ChatGPT prompts for:
+
+- `Ed Money Agent OS`
+- `John - Conservative Woman / AI Offer Media`
+- `TikTok Shop - Ecommerce Pipeline`
+- `Peter - AI Wholesaler Vault`
+- `Matthew - Lead List Scraper`
+- `Andrew - Wholesale Automation`
+
+These live prompt updates now reflect:
+
+- the trimmed 6-agent active stack
+- merged-role logic
+- John's conservative-woman promo-engine role
+- TikTok Shop's full ecommerce-pipeline role
+- draft-only behavior for social/app/account actions
+
+---
+
+## What Still Needs User Confirmation
+
+Do not cross these without asking Ed:
+
+- GitHub app completion in ChatGPT
+- any OAuth/app connection
+- any login / passkey / 2FA step
+- any posting / publishing step
+- any email send action
+- Hermes provider auth step
+
+---
+
+## Current Blockers
+
+1. GitHub app in ChatGPT still shows `Setup incomplete`
+2. No explicit ChatGPT cost/credit dashboard was visible in inspected pages
+3. Old `John - Conservative Movement` still exists alongside the newer John agent
+4. Historical social handles and destination links were found locally, but they are not confirmed current live truth
+5. Hermes provider auth remains incomplete
+
+---
+
+## Recommended Next Owner / Next Step
+
+| Item | Owner | Next Step |
+|---|---|---|
+| Active agent trim enforcement | Codex | Continue treating only the 6 active money agents as live priorities |
+| GitHub app completion in ChatGPT | User | Confirm at the action point |
+| John promo-engine output | Codex + Cloud Code | Draft more content and offer routing materials |
+| TikTok pipeline output | Codex | Draft listing/caption/sourcing assets |
+| Hermes auth | User | Complete interactive provider auth later |
