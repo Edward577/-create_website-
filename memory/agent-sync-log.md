@@ -143,3 +143,52 @@ Updated live agents:
 ### Boundary
 
 - no OAuth, posting, publishing, app-connection approval, or email-send step was crossed in this round
+
+---
+
+## 2026-04-24 - Cloud Code Brand Image System Build
+
+### Work Completed
+
+- Read existing image-prompts.md, brand-guide.md, account-change-checklist.md, launch-assets.md, slideshow-content-system.md
+- Read profile_setup.md (confirmed social handles: @shophere79, @Hmmmm355382, @janes_store34)
+- Found existing profile_pic.png (text/logo only — replacement candidate)
+- Fully rebuilt `docs/image-prompts.md` with 6-prompt system + master + negative + consistency rules + naming system
+- Created new `docs/brand-visual-system.md` with colors, typography, platform asset map, offer asset map, generation workflow
+- Committed and pushed both files to shared repo
+
+### Image Prompt System Built
+
+- Master prompt (default face of persona)
+- Prompt 1: Front-facing portrait
+- Prompt 2: 3/4 angle portrait
+- Prompt 3: Desk/business scene
+- Prompt 4: Speaking-head thumbnail
+- Prompt 5: Profile image (square)
+- Prompt 6: Hero image (wide)
+- Negative prompt
+- Style consistency rules (hair, eyes, skin, wardrobe, lighting, background, expression)
+- Platform cropping table
+- Asset naming system
+- Generation workflow (ChatGPT/DALL-E, Midjourney, Flux)
+- Replacement queue for existing profile photos
+
+### What Should Be Replaced
+
+- profile_pic.png (text logo) → Prompt 5 headshot
+- All 4 social profile photos → Prompt 5 (pending Ed confirmation)
+- Gumroad product cover → Prompt 6 (pending Ed confirmation)
+- Slideshow covers → Prompt 3
+
+### Boundary
+
+No images were generated in this round (Cloud Code cannot generate images directly).
+No social profile photos were changed.
+All asset publishing and profile updates require Ed's confirmation.
+
+### Next Owner / Next Step
+
+- Ed or ChatGPT: generate first batch using master prompt in ChatGPT / DALL-E 3
+- Ed: review and pick strongest candidate
+- Codex: download and save approved images to brand_assets folder
+- Ed: confirm profile photo replacements before any upload
