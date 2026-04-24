@@ -243,3 +243,34 @@ All asset publishing and profile updates require Ed's confirmation.
 - Ed: review and pick strongest candidate
 - Codex: download and save approved images to brand_assets folder
 - Ed: confirm profile photo replacements before any upload
+
+---
+
+## 2026-04-24 - Cloud Code Multi-Model OS Pipeline Simplification
+
+### Work Completed
+
+- Audited both directories: agent-command-center repo and larp/bots automation workspace
+- Classified 150+ larp/bots files: keep (core posting stack), pause (reply/DM bots, stale auth bots), archive (junk files with broken names, debug PNGs, temp MP4s)
+- Simplified pipeline to 4 lanes: Main (Prop Firm Rinse $97), Support (PDFs), Service (AI hosting), Optional side (Depop/Poshmark)
+- Wrote 5 lean pipeline docs:
+  - `docs/operating-doc.md` — current reality, 4-lane structure, offer stack, posting schedule, accounts, visual identity, approval boundaries
+  - `docs/daily-checklist.md` — 11-step daily run + guardrails
+  - `docs/approval-checklist.md` — gates for posting, profile, listing, email, OAuth, content safety
+  - `docs/do-not-touch-14-days.md` — 12-item freeze list + allowed actions
+  - `docs/pipeline-status-email.md` — healthy / blocked email templates
+
+### Boundary
+
+- No content was posted
+- No profile changes were saved
+- No accounts were connected
+- No email was sent
+- All new docs are reference-only until Ed uses them
+
+### Still Blocked (Ed Action Required)
+
+- X and Instagram Playwright sessions stale — run `python manual_login.py --platform twitter` and `--platform instagram`
+- Peter's Gumroad listing — log into oroaramacella@gmail.com to publish
+- AI woman profile images — generate using master prompt in ChatGPT/DALL-E 3, then confirm before any upload
+- Hermes auth — run `hermes login --provider nous --no-browser` in WSL2
